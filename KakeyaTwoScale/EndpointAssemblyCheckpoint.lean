@@ -1,0 +1,10 @@
+module
+public import KakeyaTwoScale.GeometricMassRepairCheckpoint
+public import KakeyaTwoScale.DyadicPublishedAssembly
+public import KakeyaTwoScale.OptimizedWeightedMass
+public import KakeyaTwoScale.ActualArchiveNormalizedLength
+
+@[expose] public section
+
+#print axioms KakeyaTwoScale.published_zahl_iff_integral
+#print KakeyaTwoScale.kakeya_upperMinkowski_lower_of_published_zahl

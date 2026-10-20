@@ -1,0 +1,1030 @@
+{
+  "repository": "https://github.com/akopjan/HamSandwich",
+  "commit": "76202dbbb6610ffcebbccfbf7a56f833a4c2a376",
+  "license": "Apache-2.0",
+  "license_sha256": "6e6f6231dd199342fc93fc493f4a9244056e85ebe0d7246facd0dfcec245aa5b",
+  "mathlib_revision": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "toolchain": "leanprover/lean4:v4.34.1",
+  "files": {
+    "HamSandwich/SphereOddDegree/RPnCohomologyRingModel.lean": {
+      "original_sha256": "ce0a155e94f79077a1de37fc6cd58ba9d546d58223ac2e1f7cbe3686e09c1f02",
+      "reviewed_port_sha256": "ce0a155e94f79077a1de37fc6cd58ba9d546d58223ac2e1f7cbe3686e09c1f02",
+      "sha256": "ce0a155e94f79077a1de37fc6cd58ba9d546d58223ac2e1f7cbe3686e09c1f02",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/HomotopyToChainHomotopy.lean": {
+      "original_sha256": "6644eeaf7c6748413e303cf491b7969b35e96d8f15ea50b7bd863ee47eb52824",
+      "reviewed_port_sha256": "8c2cf6892f5a526cd6445274c475cf12ce89b05150f2e4e0ec95b1e50b24076e",
+      "sha256": "eec8a00099249fd85e3acd49b97b9afc50f120c940124c2ffa7246fc9e03861e",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SingularHomologyFunctorAPI.lean": {
+      "original_sha256": "eada14e10bf260edc2769ebfb20326ebfdac519d1afd1823e160deb788f25abc",
+      "reviewed_port_sha256": "eada14e10bf260edc2769ebfb20326ebfdac519d1afd1823e160deb788f25abc",
+      "sha256": "eada14e10bf260edc2769ebfb20326ebfdac519d1afd1823e160deb788f25abc",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SingularCohomology.lean": {
+      "original_sha256": "3bc9d39c7c17be16a00736a98319951427aa6b259766d3666720c84a52f3aac3",
+      "reviewed_port_sha256": "3bc9d39c7c17be16a00736a98319951427aa6b259766d3666720c84a52f3aac3",
+      "sha256": "3bc9d39c7c17be16a00736a98319951427aa6b259766d3666720c84a52f3aac3",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/HomotopyInvarianceWrappers.lean": {
+      "original_sha256": "e620a62b0ab8409e673c85715c6dea43240589d415fe91d854eb30827a34252a",
+      "reviewed_port_sha256": "e620a62b0ab8409e673c85715c6dea43240589d415fe91d854eb30827a34252a",
+      "sha256": "e620a62b0ab8409e673c85715c6dea43240589d415fe91d854eb30827a34252a",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/HomotopyInvariance.lean": {
+      "original_sha256": "50158a21a3ccebbbc017e29b8d09a83a87e34b00cfbb1724b7de73a0915272fc",
+      "reviewed_port_sha256": "feeb65f046b332b93f7184035e5f038069731a9a75a6c60c73fa3b5a59acd965",
+      "sha256": "a1e30ee8c68a18b0d0b377781d364c1df689d7a593340599409e836c94d30efc",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/Backports/PrismSimplicialHomotopy.lean": {
+      "original_sha256": "75272141563442a95d82b1cdeb37e0aea8366e645410198fdc597dc1e773fb5c",
+      "reviewed_port_sha256": "b803333b3f200b31b9404f2cf8d9ebd4155f0155a4746c2cfaf3ea9973c7d510",
+      "sha256": "47e0f8d928a8d5d2574127450900f6fc8ce24e68d106dd7f42f11f8774923bec",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SingularCohomologyHomotopyInvariance.lean": {
+      "original_sha256": "4f21a9542a9016062c2035f6e26a2828832b1a0d438cbb6e79752005ce721a73",
+      "reviewed_port_sha256": "e148fc67dd88ee8f07578a6ed813a3fb66547ca4a75a0b6731817b82f33f08f8",
+      "sha256": "5e4716bf2d2c6bd6610b1568dea7d9764c4e3bd3552b69808e4dfa1b80164c6d",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/Basic.lean": {
+      "original_sha256": "54130feadf0a8a75aedb6520f4bb2c3fafee4cb8c35a141ae7cd88721cefcb6d",
+      "reviewed_port_sha256": "54130feadf0a8a75aedb6520f4bb2c3fafee4cb8c35a141ae7cd88721cefcb6d",
+      "sha256": "54130feadf0a8a75aedb6520f4bb2c3fafee4cb8c35a141ae7cd88721cefcb6d",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/Antipodal.lean": {
+      "original_sha256": "d95501f2859cff90d521333773c4e44706a95b14b62b1878e9b90a7347cd3950",
+      "reviewed_port_sha256": "d95501f2859cff90d521333773c4e44706a95b14b62b1878e9b90a7347cd3950",
+      "sha256": "d95501f2859cff90d521333773c4e44706a95b14b62b1878e9b90a7347cd3950",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RealProjectiveSpace.lean": {
+      "original_sha256": "419d72f2fd5c3575c9790a2d2aa994240132383fd257420458867f9f28513e39",
+      "reviewed_port_sha256": "419d72f2fd5c3575c9790a2d2aa994240132383fd257420458867f9f28513e39",
+      "sha256": "419d72f2fd5c3575c9790a2d2aa994240132383fd257420458867f9f28513e39",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/CupProductScaffolding.lean": {
+      "original_sha256": "2915cd866381e24a86e01777a38b578b079e46a5fc88b5c2da62f2b1e901bcbc",
+      "reviewed_port_sha256": "2915cd866381e24a86e01777a38b578b079e46a5fc88b5c2da62f2b1e901bcbc",
+      "sha256": "2915cd866381e24a86e01777a38b578b079e46a5fc88b5c2da62f2b1e901bcbc",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/AlexanderWhitney.lean": {
+      "original_sha256": "44d86c215c6cdc6213557bcea048b69bde5afa1ee6a6f3308cacf8635df93a04",
+      "reviewed_port_sha256": "4f6f5e627d3e9c27b220db911ebe26d00a9713b95100c224fb9bad45d1fb8d9e",
+      "sha256": "69650c42cab9256cdf25f7693662a31052b0030fc8e3a39232c0079eb7e881ba",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/CupProduct.lean": {
+      "original_sha256": "44507a2a300160262ebea0d4355e39ef70f7882b6e8d899080d261ac3ae0aeda",
+      "reviewed_port_sha256": "bb2c2e395d0e14a16fdae8a135558a21a6fe09ecc24d64301986c7dcb522b660",
+      "sha256": "31b231d314b8d1c88c11ac82f879ebafbdab86adc17d002f5a9ab1bb92b4716a",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/CupProductPowers.lean": {
+      "original_sha256": "99f2858b1c30620d723d88487a3c1be639699bbd79725f438b9983119458e9d2",
+      "reviewed_port_sha256": "99f2858b1c30620d723d88487a3c1be639699bbd79725f438b9983119458e9d2",
+      "sha256": "99f2858b1c30620d723d88487a3c1be639699bbd79725f438b9983119458e9d2",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/AlexanderWhitneyFaceMaps.lean": {
+      "original_sha256": "0836b2621174cbfe52da6b1ace33df3cd2a7be36c84f782dffc88a480982269c",
+      "reviewed_port_sha256": "6ed9b2cc79acc3485e32400735c39dff7f380626dbc38239e988855deb69bfaf",
+      "sha256": "5d13f5a28027b55bbc9287e09a4faa4a5a734d10d8f3035ba143acd6a8dad2bd",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/AlexanderWhitneyChainMap.lean": {
+      "original_sha256": "3f12142b88e06fad465971610498bb7c621d03fac06a69a4f2e678678f610943",
+      "reviewed_port_sha256": "f1b4861cacd5697f86525f52aeeab9a9ee7ec5c29ec3f9f2076506bea6b35fc2",
+      "sha256": "5fb90b522de91a999248a6f935ebabe1b7deec8894a3e7ea896dd7f2b0223b9a",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/CochainCupLeibniz.lean": {
+      "original_sha256": "3a01c4e7e7facbffab63652b7e0f16472d8991d95eadf8bbd6e27eadfdf5d194",
+      "reviewed_port_sha256": "3a01c4e7e7facbffab63652b7e0f16472d8991d95eadf8bbd6e27eadfdf5d194",
+      "sha256": "3a01c4e7e7facbffab63652b7e0f16472d8991d95eadf8bbd6e27eadfdf5d194",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/CohomologyCupProduct.lean": {
+      "original_sha256": "db1605ca24d0e25d152284ba5a6834e49dd8c58917a6e09ccb4037184851a1c7",
+      "reviewed_port_sha256": "8a1038d07ed3e5e582f8b7072b3714381c93cecdcb462a7ed30d6bb237e54725",
+      "sha256": "9137ea5fe5d491b7e50c34bece97970a8827ce4a04f49a6992a3fbac602c6303",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/InducedOnRPCohomology.lean": {
+      "original_sha256": "a6244a31d5dd79f71158e9a8af4d29a16ead638633a0433dcc9e529ec24e016d",
+      "reviewed_port_sha256": "a6244a31d5dd79f71158e9a8af4d29a16ead638633a0433dcc9e529ec24e016d",
+      "sha256": "a6244a31d5dd79f71158e9a8af4d29a16ead638633a0433dcc9e529ec24e016d",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnTopClassAlphaPower.lean": {
+      "original_sha256": "721298150ea42ac9bb35d83abaf02372fe6ad6e123f24ea84c5df32bfca7b74b",
+      "reviewed_port_sha256": "721298150ea42ac9bb35d83abaf02372fe6ad6e123f24ea84c5df32bfca7b74b",
+      "sha256": "721298150ea42ac9bb35d83abaf02372fe6ad6e123f24ea84c5df32bfca7b74b",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnCohomologyRingBridge.lean": {
+      "original_sha256": "158d66378b0836acf197a6c7fabbafd9c2fb672ab0d4920f51e4336e547ab94e",
+      "reviewed_port_sha256": "158d66378b0836acf197a6c7fabbafd9c2fb672ab0d4920f51e4336e547ab94e",
+      "sha256": "158d66378b0836acf197a6c7fabbafd9c2fb672ab0d4920f51e4336e547ab94e",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/TopCatBridge.lean": {
+      "original_sha256": "ac02d79bdccee80e1ab9039359fca854744e76615aeef490adf5f14e8a8333e8",
+      "reviewed_port_sha256": "ac02d79bdccee80e1ab9039359fca854744e76615aeef490adf5f14e8a8333e8",
+      "sha256": "ac02d79bdccee80e1ab9039359fca854744e76615aeef490adf5f14e8a8333e8",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/Degree.lean": {
+      "original_sha256": "18a31f51e277636039972b241e37b133674619491d1f463a96fdccfc5478c1a6",
+      "reviewed_port_sha256": "bc4e9b745e0229987711021e3354b71438abd25873c2e29ab8e2a328b8e6e9f6",
+      "sha256": "64032e67744231228fd6cbacd873424896e9ebe82a6c8f5dcbefb54e2d8e66f0",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/RPnLowDimensional.lean": {
+      "original_sha256": "3dc937be6c3591e6499276b514edfc6d29427041194bdaaac55ae1ac40a2fc42",
+      "reviewed_port_sha256": "3dc937be6c3591e6499276b514edfc6d29427041194bdaaac55ae1ac40a2fc42",
+      "sha256": "3dc937be6c3591e6499276b514edfc6d29427041194bdaaac55ae1ac40a2fc42",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/SphereTopHomology.lean": {
+      "original_sha256": "990f561eee2fa45de5462017d7ae96198f62a4b2c478d4927ab9562917ab8f22",
+      "reviewed_port_sha256": "990f561eee2fa45de5462017d7ae96198f62a4b2c478d4927ab9562917ab8f22",
+      "sha256": "990f561eee2fa45de5462017d7ae96198f62a4b2c478d4927ab9562917ab8f22",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/DegreeAPIStrengthening.lean": {
+      "original_sha256": "89fa1b2e6a229414edff6bd655455cad43cb37f76f82775f1fa98d08f310b6df",
+      "reviewed_port_sha256": "89fa1b2e6a229414edff6bd655455cad43cb37f76f82775f1fa98d08f310b6df",
+      "sha256": "89fa1b2e6a229414edff6bd655455cad43cb37f76f82775f1fa98d08f310b6df",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/DegreeFunctorialityAndHomotopy.lean": {
+      "original_sha256": "69a17836a0920d03f00ca716ed494ac6847e4bc4dd5899dbe09492bacd34b51a",
+      "reviewed_port_sha256": "69a17836a0920d03f00ca716ed494ac6847e4bc4dd5899dbe09492bacd34b51a",
+      "sha256": "69a17836a0920d03f00ca716ed494ac6847e4bc4dd5899dbe09492bacd34b51a",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AntipodalDegree.lean": {
+      "original_sha256": "f9c2faacc9b91e2d8d8ff7854623de8ab23670a36448557a6d014ab2df8cc73a",
+      "reviewed_port_sha256": "f9c2faacc9b91e2d8d8ff7854623de8ab23670a36448557a6d014ab2df8cc73a",
+      "sha256": "f9c2faacc9b91e2d8d8ff7854623de8ab23670a36448557a6d014ab2df8cc73a",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/ModTwoDegreeComparison.lean": {
+      "original_sha256": "1cd9a18752ba55790a6ca065beb655fe90aa90ba7a830f043b3d750b8bc99c11",
+      "reviewed_port_sha256": "1cd9a18752ba55790a6ca065beb655fe90aa90ba7a830f043b3d750b8bc99c11",
+      "sha256": "1cd9a18752ba55790a6ca065beb655fe90aa90ba7a830f043b3d750b8bc99c11",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/H1ClassifierZMod2.lean": {
+      "original_sha256": "2fb87d39c49449334523fe526ae95430ecd3b31a964d3765b57e6846657b74ad",
+      "reviewed_port_sha256": "8969eeab8b6f6d81f091b32888f4ffd3e88419de39e9005777945d3e90d2c4fb",
+      "sha256": "d47ffb3f611f20ed590a30e524a675f107ec41218f45edf95db38b1d4da7b159",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/KroneckerNaturality.lean": {
+      "original_sha256": "11ba6906b395d7be20518f769f12567f72e9db48923a1ed701743c6fe0212b84",
+      "reviewed_port_sha256": "755ab78c4cd2b67b23ae484f31593191ceae058695e1538f0256834818b54976",
+      "sha256": "a36c56e10ee7d0b27cd4a50c3a939ef10f7d81ea18f89215542e8d1c7fcbaec5",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/Covering.lean": {
+      "original_sha256": "d91a90b4ed4a169050200ad198a327e153ba0a19fe641da061e6806773c5e05d",
+      "reviewed_port_sha256": "548225b77f2d13c8626462e238e6a337a7d62e29a917d0f8b319a0d00b36c283",
+      "sha256": "d5f73f936346b1c8bb9cca9f6b4dd8be072013d0bba72fe7200b1dc348260b69",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/Monodromy.lean": {
+      "original_sha256": "1cea2891b0858f804118d60574f6cbd74273025caa907ffee3054b5b57786726",
+      "reviewed_port_sha256": "cc2c54a14a3a855011bd228aa6f600321273536c631440a7228f19c36b308ff7",
+      "sha256": "f2ba96c4fbb048986c9c90d370d1cfee4facc48ddfdae74426c0babf5737d616",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/DoubleCoverClass.lean": {
+      "original_sha256": "c358d2b18a8389619849a88a8ac5dfd06cf3ba7075a4f613a1c6bed3582aaa41",
+      "reviewed_port_sha256": "c358d2b18a8389619849a88a8ac5dfd06cf3ba7075a4f613a1c6bed3582aaa41",
+      "sha256": "c358d2b18a8389619849a88a8ac5dfd06cf3ba7075a4f613a1c6bed3582aaa41",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/MonodromyNontrivial.lean": {
+      "original_sha256": "3b5d965e72e44535e1bf6e7d4e61a90b67245060000cfe0e89edf547a4b0fed0",
+      "reviewed_port_sha256": "32a4a451465cf5fd157a2a051b4335ecf5176eabfea71d20994460a6082f6f77",
+      "sha256": "fe215502318ace74f09d0ebf7ab67436ff8265df99e70471526f203ab61d5c52",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/MonodromyCharacter.lean": {
+      "original_sha256": "2d54c9673fd609e29f01bb6a32fd9695253dc13846b52d7de84515e597d95d41",
+      "reviewed_port_sha256": "2d54c9673fd609e29f01bb6a32fd9695253dc13846b52d7de84515e597d95d41",
+      "sha256": "2d54c9673fd609e29f01bb6a32fd9695253dc13846b52d7de84515e597d95d41",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/ConstructRPAlpha.lean": {
+      "original_sha256": "d7a21ad0fdfd4ff64aa636f3f5fcbd31045f4626416dcf5c2aa55e5486c1a477",
+      "reviewed_port_sha256": "d7a21ad0fdfd4ff64aa636f3f5fcbd31045f4626416dcf5c2aa55e5486c1a477",
+      "sha256": "d7a21ad0fdfd4ff64aa636f3f5fcbd31045f4626416dcf5c2aa55e5486c1a477",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/FinalOddMapComparison.lean": {
+      "original_sha256": "77cc4025c63bfcabad974da72fc84ec0590c25ea423c669dee42d616790541fc",
+      "reviewed_port_sha256": "ba5a93312d688da49cd84fa64d456a95cdeedafa5d4f752e0822595e580694b5",
+      "sha256": "4901fa583f39034c009f6464276399ef5f90635c4b6c86bd996bd57f71760805",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/AffineBarycentricSubdivision.lean": {
+      "original_sha256": "fef553298542a21bedd41d516dcb9a206e945cec380ba29b805c3e5228b3810f",
+      "reviewed_port_sha256": "fef553298542a21bedd41d516dcb9a206e945cec380ba29b805c3e5228b3810f",
+      "sha256": "fef553298542a21bedd41d516dcb9a206e945cec380ba29b805c3e5228b3810f",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/BarycentricSubdivisionOperator.lean": {
+      "original_sha256": "af871151844b366536aaf44a1cbf61836803d2889c811930337b4ec47757761d",
+      "reviewed_port_sha256": "6562879a43f351ef3038ba5f9ae59e5e9915cba2aa28de63b91d313532967524",
+      "sha256": "4ba74fcca9d15b4f49554b95e8e6d24dbfc4c2c9cca0c42caad900e45ccf442b",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/AffineInternalSwapLemmas.lean": {
+      "original_sha256": "b88237805188f45e7eb115a51b6da2a9c80f89294f289714634b65a9e7c83ac4",
+      "reviewed_port_sha256": "b88237805188f45e7eb115a51b6da2a9c80f89294f289714634b65a9e7c83ac4",
+      "sha256": "b88237805188f45e7eb115a51b6da2a9c80f89294f289714634b65a9e7c83ac4",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/AffineInternalSwapFace.lean": {
+      "original_sha256": "a7997c08578b2ad540edd2e082f5fab21d9be2b077197bc8161e3bf32d9bc0f6",
+      "reviewed_port_sha256": "a7997c08578b2ad540edd2e082f5fab21d9be2b077197bc8161e3bf32d9bc0f6",
+      "sha256": "a7997c08578b2ad540edd2e082f5fab21d9be2b077197bc8161e3bf32d9bc0f6",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/PermSignAdjacentSwap.lean": {
+      "original_sha256": "90c170310941fa29d6adece5ea2c4101162ae0123ab85ab2cf9a7de0841528ef",
+      "reviewed_port_sha256": "90c170310941fa29d6adece5ea2c4101162ae0123ab85ab2cf9a7de0841528ef",
+      "sha256": "90c170310941fa29d6adece5ea2c4101162ae0123ab85ab2cf9a7de0841528ef",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/AffineLastFaceIdentity.lean": {
+      "original_sha256": "e928b2595dafe4198f931affe4dc65f3148464909894f5c94ab258728f8dd05a",
+      "reviewed_port_sha256": "213e802446f6c319af014b75039e94e1aaa8965e58a14b5eedb6a9e4d0a536bc",
+      "sha256": "9a89b6e6825463fe9df2db30b4fe8020827ca8e3967e213b94ae4f798c74e3d5",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/PermSignLastFaceFinished.lean": {
+      "original_sha256": "24b993acfc0f0033408587afc0e3dcafa0b7a811443fb062b5ffeca4024b2494",
+      "reviewed_port_sha256": "4ddb86f70739ee51a975e5699fbdbcb1154816e20eef81ef57b144f0089eb7a0",
+      "sha256": "909977d13177c9bcafa875d3b353738c31ff992d6e21960c3f3ab858d5c8fed2",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/BarycentricFiniteCancellation.lean": {
+      "original_sha256": "26616736b473de9b0ee86a1baf2985d22fd88b0bec6f873c27f10e221b34586f",
+      "reviewed_port_sha256": "26616736b473de9b0ee86a1baf2985d22fd88b0bec6f873c27f10e221b34586f",
+      "sha256": "26616736b473de9b0ee86a1baf2985d22fd88b0bec6f873c27f10e221b34586f",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/BarycentricBoundaryCancellation.lean": {
+      "original_sha256": "640afa2d313ff139863ae15f33307284882f65aaad1d4368e2c08783cebd39ac",
+      "reviewed_port_sha256": "adeea4766d71543b42373c331d28308df4d0a58fda6a41300ae598efb7d9490f",
+      "sha256": "5c527af0d5b562b8bcc40ac05c79666e4bd12320c59ceaa2e7984ce6a9137719",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SmallSimplices.lean": {
+      "original_sha256": "90721a3ae9898f935a098379b615f10731007339bc3ef6af591b1626c97758b6",
+      "reviewed_port_sha256": "90721a3ae9898f935a098379b615f10731007339bc3ef6af591b1626c97758b6",
+      "sha256": "90721a3ae9898f935a098379b615f10731007339bc3ef6af591b1626c97758b6",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SmallChains.lean": {
+      "original_sha256": "c524a183a70e227b30c65c56a5648a560e5e260adfeb3524e39c489e5e8acce8",
+      "reviewed_port_sha256": "c524a183a70e227b30c65c56a5648a560e5e260adfeb3524e39c489e5e8acce8",
+      "sha256": "c524a183a70e227b30c65c56a5648a560e5e260adfeb3524e39c489e5e8acce8",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/BarycentricBoundaryChainMap.lean": {
+      "original_sha256": "7be99b44fb1edb599e1aaa54062411b7dfab729089a041d4f31967d944c1df15",
+      "reviewed_port_sha256": "f291b88aad2bd82d3ca717ad73f8e9947504bc10b07aaaaf61aad9047035d870",
+      "sha256": "f407f334720a021112609d915f49ed8414bfeb137170785a0257f2bdf2e13949",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/BarycentricSubdivisionChainMap.lean": {
+      "original_sha256": "b0f5570649fa52f59878300f6ccd845cd9fc33b55d251fd3c89abfbfced5ca4f",
+      "reviewed_port_sha256": "b0f5570649fa52f59878300f6ccd845cd9fc33b55d251fd3c89abfbfced5ca4f",
+      "sha256": "b0f5570649fa52f59878300f6ccd845cd9fc33b55d251fd3c89abfbfced5ca4f",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SmallChainComplex.lean": {
+      "original_sha256": "edfd94c074770add741b84c860cc77273db0ba09f77d67a0a0f0be6b5c52e246",
+      "reviewed_port_sha256": "869fd56185dfb3ec4106ab6190963370c896535b7b61af8664fe3feb867ceff4",
+      "sha256": "09a90a64fec72ed3c0c405f57dadee11fb61ee47c7b6ed361d135ce56ded1337",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SubordinateChains.lean": {
+      "original_sha256": "45a83d1715eb1aa727e8425ca09876f7140f82af70835b7d0b3fb9f59c61db35",
+      "reviewed_port_sha256": "d6719599ed486fa62ae7daf2dd0411acacb3c0dd05182c7da4d90803cd3dfdc4",
+      "sha256": "5138902eb76d97cd024d8d5a146afb0e6d1510c3753ee1fed79ef806f632c34c",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/CoordinateProjection.lean": {
+      "original_sha256": "29e8af64625048b69c67442df7294d6e64b8663f783f6e68d68ece7d1c963b27",
+      "reviewed_port_sha256": "29e8af64625048b69c67442df7294d6e64b8663f783f6e68d68ece7d1c963b27",
+      "sha256": "29e8af64625048b69c67442df7294d6e64b8663f783f6e68d68ece7d1c963b27",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/BarycentricSubdivisionDiameter.lean": {
+      "original_sha256": "a1cea717e82da5a89c5d85140c0533286681dfcbb3f9eec5c5e4ecc6d7ef55e4",
+      "reviewed_port_sha256": "67b7b5972e0dca38605078d282a7cab0b901be5211dba935b04682a5090b76d5",
+      "sha256": "30cad6b4923d07c402d60cb522e2d3ef28bab0e17ed63623c3d019b3f2b59ee4",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/BarycentricSubdivisionCone.lean": {
+      "original_sha256": "c0f37e2ab614862b606d26b53b7fcc1a4bc762d1f59b33b36ca63fcabed1b291",
+      "reviewed_port_sha256": "b3dae7bed54800aa4caa3528d78543067db3b8b5aeee3c1c7a31c74909d15126",
+      "sha256": "51284d1900d32b70d25e8fdbdd2598f21a33672c199bbc831165ca8544d74da9",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/BarycentricSubdivisionHomotopyOperator.lean": {
+      "original_sha256": "d45afa5d064f50b2202020a43109d04e94221494a5d6c3ddcc9f3b5485ec06d6",
+      "reviewed_port_sha256": "f5a2e13caa74110491cc9a4e8d90fd1dcff0ac45ea72ccef74196ba00ade5359",
+      "sha256": "4c7a5d4a4a8c5939f9e6a6f43e2e2b109127886fbb206527e968be628bcb48c1",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/BarycentricSubdivisionHomotopyFormula.lean": {
+      "original_sha256": "c4b48558b28a11c94de0cc3d3efde0672412e0a931685c5a0d619ae77f411351",
+      "reviewed_port_sha256": "2eae45d75cbecd7f7be9a9ec9a15463b8eb37d4141ef60c6bcde1f6aa53916da",
+      "sha256": "92971d333b5befd793b95105ce1e1f9a6673f74141b160d574b2b3e298c9ab16",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/BarycentricSubdivisionChainHomotopy.lean": {
+      "original_sha256": "72f489d7407993538c18d74c4ca39cd9ce23f8c9cb0f32e124a682af9171e9c6",
+      "reviewed_port_sha256": "70085797c3106e23a358bc998d5903afc1cd43f9beebf53c9cb2c5416512a4b7",
+      "sha256": "f91f27220b8cd07c6d17e7b52e1814b4027dc8ea6cc56c219a7f4ee2f5aaea5e",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/BarycentricSubdivisionIter.lean": {
+      "original_sha256": "eb51a25790377e608943a9c92a22e96e628b3c77e845b531efe04080f4da96c9",
+      "reviewed_port_sha256": "4ff2a815224d0bde3a27f4efbfa00a2c9060c260b769852822481e6fb5674167",
+      "sha256": "5cdff0f856f242ab19629bfc0d5b3ef3648e454b729507a248cb0aca6aa36527",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SingularSimplexLebesgueNumber.lean": {
+      "original_sha256": "e2847997e9e586f949a2d5555134c956348286191f4c3a18c9217779a45f7ee1",
+      "reviewed_port_sha256": "e2847997e9e586f949a2d5555134c956348286191f4c3a18c9217779a45f7ee1",
+      "sha256": "e2847997e9e586f949a2d5555134c956348286191f4c3a18c9217779a45f7ee1",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/IteratedSubdivisionSmallSimplex.lean": {
+      "original_sha256": "e61ab626adde6880e8c2e1380fe3eaedc2334abead0fc28ffb818060785d648e",
+      "reviewed_port_sha256": "ee67e34989ccfa365b93b39e9fe11b9e74f47cdf31edaa1602b7caad132ef4a1",
+      "sha256": "ef4980b7183de7a31a7fded7b027eb746d4caf4cb56eb01e2911626e07d96fa8",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/IteratedSubdivisionSmallChains.lean": {
+      "original_sha256": "21c01b2ceddb7f365c5aa59abe7dcb157cf7e66a88a65766d27b3e2940ec6fdc",
+      "reviewed_port_sha256": "5563a0d0431650740f29d7e3d576447d0693cf82c02cec61aab6cd2491e02cf3",
+      "sha256": "f86c8b64722d76d51203bddf0d1a2f8e7acf64744e368a9e726d0fdd13a3adee",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SmallChainsHomologySurjectivity.lean": {
+      "original_sha256": "fd949905140b1b037e5d4b9650b9f7470c31973eb5747cb495b61526a58e23e8",
+      "reviewed_port_sha256": "fd949905140b1b037e5d4b9650b9f7470c31973eb5747cb495b61526a58e23e8",
+      "sha256": "fd949905140b1b037e5d4b9650b9f7470c31973eb5747cb495b61526a58e23e8",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/IteratedSubdivisionHomotopySmall.lean": {
+      "original_sha256": "dfc0d34a768cbd5b1ed4e37af5ab1be9378c44c6a3aaae3c9e0ef4038a0ea519",
+      "reviewed_port_sha256": "dfc0d34a768cbd5b1ed4e37af5ab1be9378c44c6a3aaae3c9e0ef4038a0ea519",
+      "sha256": "dfc0d34a768cbd5b1ed4e37af5ab1be9378c44c6a3aaae3c9e0ef4038a0ea519",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SmallChainsHomologyInjectivity.lean": {
+      "original_sha256": "7107a1fe394aeabdf2077e4401ccf1c16cc987ff08c9ea14beb2ca43b1ee451e",
+      "reviewed_port_sha256": "c6b48374f80fc3688075ca1d8fc691108bfd87080497adea13713a2e185b410c",
+      "sha256": "7e1fa122fe4606d5fb0b2f94c679f221593a9a44bcf5b96ad76b24625679d781",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SmallChainsQuasiIso.lean": {
+      "original_sha256": "bc6e0badb07601b4b2006070bcd590c34379250056995c06230d8ae14a572460",
+      "reviewed_port_sha256": "bc6e0badb07601b4b2006070bcd590c34379250056995c06230d8ae14a572460",
+      "sha256": "bc6e0badb07601b4b2006070bcd590c34379250056995c06230d8ae14a572460",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/MayerVietorisSES.lean": {
+      "original_sha256": "5915221e9ccd8cc7dff4838af983e505b5906c0cf100c6f3a3d92b026908fb75",
+      "reviewed_port_sha256": "2b712de7b0899a454e23afaaa38cf25c0c3c94bde226d0a369e279b154d1b844",
+      "sha256": "6f439025a8db0042b7b36144ba742772b41c79ed278eff18835029e0a7671b26",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/MayerVietoris.lean": {
+      "original_sha256": "7c6b35f1433773c03ffe16520c7802c17b2ce4af1e82d4e5399c4c26779abbc1",
+      "reviewed_port_sha256": "7c6b35f1433773c03ffe16520c7802c17b2ce4af1e82d4e5399c4c26779abbc1",
+      "sha256": "7c6b35f1433773c03ffe16520c7802c17b2ce4af1e82d4e5399c4c26779abbc1",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/SphereTopHomologyReduction.lean": {
+      "original_sha256": "75f067e3f898738814baee5a0e6300cb4bb4992f1cbeeb931a7718e1c80ebfd6",
+      "reviewed_port_sha256": "75f067e3f898738814baee5a0e6300cb4bb4992f1cbeeb931a7718e1c80ebfd6",
+      "sha256": "75f067e3f898738814baee5a0e6300cb4bb4992f1cbeeb931a7718e1c80ebfd6",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/ReducedToUnreducedSphereTopHomology.lean": {
+      "original_sha256": "6136bbe73a5a72b55dcb30ebbc48be4f75f36ef1294a79dcc924c2731324e1b6",
+      "reviewed_port_sha256": "6136bbe73a5a72b55dcb30ebbc48be4f75f36ef1294a79dcc924c2731324e1b6",
+      "sha256": "6136bbe73a5a72b55dcb30ebbc48be4f75f36ef1294a79dcc924c2731324e1b6",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SingularHomologyHomotopyInvariance.lean": {
+      "original_sha256": "80275701ce611e385b2bf940b12501704fa6b9da0555b2a2d62858b2c8185469",
+      "reviewed_port_sha256": "80275701ce611e385b2bf940b12501704fa6b9da0555b2a2d62858b2c8185469",
+      "sha256": "80275701ce611e385b2bf940b12501704fa6b9da0555b2a2d62858b2c8185469",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/BallBoundaryLES.lean": {
+      "original_sha256": "e4d599d87a8f248208122c1ffdd940bf66161750cf31fe29a82c5a777376f370",
+      "reviewed_port_sha256": "e4d599d87a8f248208122c1ffdd940bf66161750cf31fe29a82c5a777376f370",
+      "sha256": "e4d599d87a8f248208122c1ffdd940bf66161750cf31fe29a82c5a777376f370",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SubChainSubspaceBridge.lean": {
+      "original_sha256": "9bcc0e33844d539baa6f497ca48bcbabc89e023959c35f19000589de893d08b8",
+      "reviewed_port_sha256": "9244a9c231024197040080af3ab21868ee31a2c6919bdbdc00b6afb6622ad800",
+      "sha256": "b27a26ad3931d3246a503fadccd757216cd6e67f4271fba5ac3042995c61f900",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SphereHomologyMVStep.lean": {
+      "original_sha256": "5f8a4599cc553d6d12f25a646ef669c537aab93654e1e144d6070e5279a5dbac",
+      "reviewed_port_sha256": "29dda3714571f1ba955b80276ce7dbd08cefcc6767f40589aedba9ce3c17a21d",
+      "sha256": "f653bea26f086f3153d1b2265c4405ab8245ba509d5332f402159afb9a39f5a8",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SingularH0.lean": {
+      "original_sha256": "09e6fe7bbdc205b62af7f1c239308907fc5039c6fd1027fa1a5a8cc6b254c010",
+      "reviewed_port_sha256": "6fe39e498180b56470df15052e4ef78594aa90c6305ef7add6277c6f4be47a33",
+      "sha256": "df940344779f6ff175f26f1841acd0d71ab4b9ca7d24ea47a19aaa8c3e7e38f2",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SingularH0PathConnected.lean": {
+      "original_sha256": "b5a07a3668e355ec0e2c15847420b7c769a88103a66ce0d0565922b4682c319a",
+      "reviewed_port_sha256": "050dd01c118ba8b5553274d3931057c597d11f1f9a40622b1304bc09bd22d87e",
+      "sha256": "4a90cf4778f90b0131ebfe9b1562066d5c11159c2b6ce1db89c33b18ebc71051",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SphereHomologyS1BaseMV.lean": {
+      "original_sha256": "b33e890a69ee58a21a5cbfa5ab4f1daaab3e8f6c052eee5930f9eb010cdf9d3f",
+      "reviewed_port_sha256": "291157f571d99436bd45913cd7b76da1171bea29f38c206931e648b9ac2177a3",
+      "sha256": "cfbdc93a968d145816e3de5c813f10954ca7a44883ded0bea4ebaffea42df734",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SphereSuspensionTowerFromMV.lean": {
+      "original_sha256": "88b5b6e75f8c007d9bef3afec46909c120bbf91c5233cdb461b99b99cf292fab",
+      "reviewed_port_sha256": "88b5b6e75f8c007d9bef3afec46909c120bbf91c5233cdb461b99b99cf292fab",
+      "sha256": "88b5b6e75f8c007d9bef3afec46909c120bbf91c5233cdb461b99b99cf292fab",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SphereOrientationPosFromMV.lean": {
+      "original_sha256": "55bae33f630b77a74964b47ea9fe6fb675b5680343b66e078796b69d643340ee",
+      "reviewed_port_sha256": "55bae33f630b77a74964b47ea9fe6fb675b5680343b66e078796b69d643340ee",
+      "sha256": "55bae33f630b77a74964b47ea9fe6fb675b5680343b66e078796b69d643340ee",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/FinalOddMapComparisonUnconditionalSphere.lean": {
+      "original_sha256": "a71fdd64597723bf3d82e89513dbe6c12c5776f09fadfcca92035ee35b104da6",
+      "reviewed_port_sha256": "a71fdd64597723bf3d82e89513dbe6c12c5776f09fadfcca92035ee35b104da6",
+      "sha256": "a71fdd64597723bf3d82e89513dbe6c12c5776f09fadfcca92035ee35b104da6",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/CoefficientReduction.lean": {
+      "original_sha256": "b47e5ba614376d242c7012b7eb78770e8b1c34af2ffabb33989c971fef82a191",
+      "reviewed_port_sha256": "a08d4257852fedf8d337f3c76298a5c0a0c8666526578512ce191b4d9546bca4",
+      "sha256": "624f97665e3de6cb71888dfc7f5b965c96df784d21b62603c3aaed8d0c6e4cdc",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/Final/OddDegreeTheorem.lean": {
+      "original_sha256": "e5c5e048e25992a7c10f102bf8dc3830d76391049277de748aa9a026765bc6ec",
+      "reviewed_port_sha256": "e5c5e048e25992a7c10f102bf8dc3830d76391049277de748aa9a026765bc6ec",
+      "sha256": "e5c5e048e25992a7c10f102bf8dc3830d76391049277de748aa9a026765bc6ec",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/Final/FinalAssumptionAliases.lean": {
+      "original_sha256": "46527f969e5fec89fdf62d87d4e383a3564b88b195644e73349abb6128e6d445",
+      "reviewed_port_sha256": "46527f969e5fec89fdf62d87d4e383a3564b88b195644e73349abb6128e6d445",
+      "sha256": "46527f969e5fec89fdf62d87d4e383a3564b88b195644e73349abb6128e6d445",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/Final/OddDegreeTheoremCanonical.lean": {
+      "original_sha256": "850efa9fd0b4d78b80527ab43ad3c8fe026770bfba19ac42d99b3a4eb64dee07",
+      "reviewed_port_sha256": "850efa9fd0b4d78b80527ab43ad3c8fe026770bfba19ac42d99b3a4eb64dee07",
+      "sha256": "850efa9fd0b4d78b80527ab43ad3c8fe026770bfba19ac42d99b3a4eb64dee07",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/Branch2IntegralDegreeAction.lean": {
+      "original_sha256": "66780ef138232226f76da8dac5e9b90b180992c8010a427b633522a87fc41bc1",
+      "reviewed_port_sha256": "66780ef138232226f76da8dac5e9b90b180992c8010a427b633522a87fc41bc1",
+      "sha256": "66780ef138232226f76da8dac5e9b90b180992c8010a427b633522a87fc41bc1",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/Branch2RankOne.lean": {
+      "original_sha256": "9a6c45ac79d11a1bd83accc39fe5d1e19443f9f7c5222f80bc0220cc691d55ca",
+      "reviewed_port_sha256": "9a6c45ac79d11a1bd83accc39fe5d1e19443f9f7c5222f80bc0220cc691d55ca",
+      "sha256": "9a6c45ac79d11a1bd83accc39fe5d1e19443f9f7c5222f80bc0220cc691d55ca",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/Branch2CoefficientReduction.lean": {
+      "original_sha256": "6f4de6b47b9747a0219ff32462d31ae0251500381b0cc52a15df83b6ffb4ed89",
+      "reviewed_port_sha256": "6f4de6b47b9747a0219ff32462d31ae0251500381b0cc52a15df83b6ffb4ed89",
+      "sha256": "6f4de6b47b9747a0219ff32462d31ae0251500381b0cc52a15df83b6ffb4ed89",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/KroneckerTopClassAction.lean": {
+      "original_sha256": "3ce5d29137245ff7d6d98a5c38c0cc78696b8a9b4c7ad4ef144b38bac6e157eb",
+      "reviewed_port_sha256": "3ce5d29137245ff7d6d98a5c38c0cc78696b8a9b4c7ad4ef144b38bac6e157eb",
+      "sha256": "3ce5d29137245ff7d6d98a5c38c0cc78696b8a9b4c7ad4ef144b38bac6e157eb",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/ConstructModTwoTopClassComparison.lean": {
+      "original_sha256": "3c3c96a211dad79677cbeb200b0d64b571d83265be117af02f2f56a8d0d923c6",
+      "reviewed_port_sha256": "3c3c96a211dad79677cbeb200b0d64b571d83265be117af02f2f56a8d0d923c6",
+      "sha256": "3c3c96a211dad79677cbeb200b0d64b571d83265be117af02f2f56a8d0d923c6",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SingularH0General.lean": {
+      "original_sha256": "ae2e0af572e3a67862badbd6d294b42a72fce6b1ad638583a03447edb6b7fc47",
+      "reviewed_port_sha256": "26ff6bb22a5faf3aa8d65811bc0dc9c281dee45b24ec8e54734fd1d3a1170416",
+      "sha256": "c7872be2f3cf94e971e6dfdd091ca873c80e85f0f06022d0e64a6fa496913185",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/SphereModTwoHomologyVanishing.lean": {
+      "original_sha256": "71cc1f39270dae03fe430a643d1cc1824d6f265cb91ac58894a58c19a6d286d8",
+      "reviewed_port_sha256": "76e8af7b9fc60d63441daa610bc9f00827deda8f2b562b74b4a9975d69b523b5",
+      "sha256": "5100fa1777a8a23fe33c6e6d12a75a51fa568a53f29bd2657ff6522fe1f41ca3",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SphereModTwoOneBase.lean": {
+      "original_sha256": "eac5bc213e4473ed786eca37f3c3a9b5218b1d19a59ad8b753168cdd178641cb",
+      "reviewed_port_sha256": "7c5e1416d7fb7bdf3cdef97b4ed9aa0421b375654e276b86cbcb31ff3fb13948",
+      "sha256": "0cc9374eb194080a439d91b6a82bb0e6ec16593812587db24c21abc8755eb3b3",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/SphereModelTransport.lean": {
+      "original_sha256": "5ca15db58fc2d693c62fbf13669ce9778a5bed0ad0cd0d8e3a5cb442c6553003",
+      "reviewed_port_sha256": "5ca15db58fc2d693c62fbf13669ce9778a5bed0ad0cd0d8e3a5cb442c6553003",
+      "sha256": "5ca15db58fc2d693c62fbf13669ce9778a5bed0ad0cd0d8e3a5cb442c6553003",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SphereModTwoTopClass.lean": {
+      "original_sha256": "9519ff2bf97e356057f9746acc55672c96ba71f5a35663c2bcbf1cc010bf16ea",
+      "reviewed_port_sha256": "9519ff2bf97e356057f9746acc55672c96ba71f5a35663c2bcbf1cc010bf16ea",
+      "sha256": "9519ff2bf97e356057f9746acc55672c96ba71f5a35663c2bcbf1cc010bf16ea",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SphereModTwoTopGeneratorData.lean": {
+      "original_sha256": "785a19e60ee9ade588b317da1eb4f6437f692c0621b36d8a9ae97659561d283b",
+      "reviewed_port_sha256": "785a19e60ee9ade588b317da1eb4f6437f692c0621b36d8a9ae97659561d283b",
+      "sha256": "785a19e60ee9ade588b317da1eb4f6437f692c0621b36d8a9ae97659561d283b",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SphereModTwoCoeffBridge.lean": {
+      "original_sha256": "999c5076559c85856c450fa4258a87d2073fbbcb74d3bad9d425700d4759bd89",
+      "reviewed_port_sha256": "5cb06173ffc26e419caab8a2015dd31a116b3e9111e0c3105a01160d9a2a8e92",
+      "sha256": "d49f3b61bd144664da69ce2e8a01e7f3def9d9d95ea71ba2dbcf03a16ca11711",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SphereModTwoBockstein.lean": {
+      "original_sha256": "a818e81ee26c110111ab379406e8e861d242f484b4e3e1fec82973c39e2301e8",
+      "reviewed_port_sha256": "e621bccceaeffe115d393a24cb0dba9ca87c2964ac5493ab6aa277554813099e",
+      "sha256": "e0b8655a82f85b7096fcc3ff980d9f0388ac88b535deed6397f80406d0c6874c",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/SphereModTwoTopDegreeAction.lean": {
+      "original_sha256": "5d57fd744fa5eae393f15da7908b3c279b9b8ab49f3a0bf109434170bbbf1723",
+      "reviewed_port_sha256": "09a5d8baef928e06c37e0415a32b43328c8e002a247448ad074716e403d44c4a",
+      "sha256": "06a4dddf6f96d9322fa3c2fa5fa005eabd57a00a37d174cc9eb9c22d335abb94",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/ModTwoTopClassComparisonUnconditional.lean": {
+      "original_sha256": "7ebc6b70a85bc25fcfb0de180bfa6c28d27f205bf4fd58d144b92019311cc26f",
+      "reviewed_port_sha256": "7ebc6b70a85bc25fcfb0de180bfa6c28d27f205bf4fd58d144b92019311cc26f",
+      "sha256": "7ebc6b70a85bc25fcfb0de180bfa6c28d27f205bf4fd58d144b92019311cc26f",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/Final/OddDegreeTheoremBranch2Discharged.lean": {
+      "original_sha256": "8eb4786b9b88d6a9ebbf650a93e3db308b895a06a04bdf4f9adab6c953da0b10",
+      "reviewed_port_sha256": "8eb4786b9b88d6a9ebbf650a93e3db308b895a06a04bdf4f9adab6c953da0b10",
+      "sha256": "8eb4786b9b88d6a9ebbf650a93e3db308b895a06a04bdf4f9adab6c953da0b10",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/CoveringSimplexLift.lean": {
+      "original_sha256": "745a8853131a53e5142ff186757c2c55e227a36f24042dc3b4e97a02b596b45b",
+      "reviewed_port_sha256": "57d318e9b2bf3435ca7f1c46eca81437035407e6db2fbf0e47427a9489045231",
+      "sha256": "01240564c887d778ff95b3e2af581989d5e3f8a7da943b43ef99835f9a5485ff",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/CoveringTransferChains.lean": {
+      "original_sha256": "516d52e029f03e70ddd2c58afc1a9127b28b3bf2d8905f200f59c193bf529445",
+      "reviewed_port_sha256": "516d52e029f03e70ddd2c58afc1a9127b28b3bf2d8905f200f59c193bf529445",
+      "sha256": "516d52e029f03e70ddd2c58afc1a9127b28b3bf2d8905f200f59c193bf529445",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/CoveringTransferBoundary.lean": {
+      "original_sha256": "d7e4ca0e77ccabc4ee0c1e9c9fcb1b8f35044ee720a4705d3398d949e3c5112d",
+      "reviewed_port_sha256": "e9db4cd858ad479a30208ef7cf49c0cac541fb9b138eeedfa73205a9fb88dd77",
+      "sha256": "6f7df7b1bd1bcdfd8450ee02bdd192e645c360aa8fd0a22d2f263e14ac74315a",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/CoveringTransferHomology.lean": {
+      "original_sha256": "0b1ee28b9c5757040bb7232c2105636d2815c83d391250aac9e6220b70c62f7a",
+      "reviewed_port_sha256": "0b1ee28b9c5757040bb7232c2105636d2815c83d391250aac9e6220b70c62f7a",
+      "sha256": "0b1ee28b9c5757040bb7232c2105636d2815c83d391250aac9e6220b70c62f7a",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnTopClassTransferNaturality.lean": {
+      "original_sha256": "e589c70991b9dc5f415782f9ef32f5858b08440a706e7d7bc1ce178a39883b4c",
+      "reviewed_port_sha256": "60b11ab83c7c95e27d2b005d5756bd42994ccc7286fa8cce7876df9cb796ec0b",
+      "sha256": "8936bfb6ef8d1c362430e47cf887fd3079a07fe2898f8da1c1b0104ab85008a3",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/CoveringTransferSES.lean": {
+      "original_sha256": "0a5c22cae242e2a189d76b74d6d24b28d1ff84a0754387e9e6db70791d67ec7c",
+      "reviewed_port_sha256": "1face53e2664c58530dba7012d68dab0b19d901911d26d641b161dfce7fda981",
+      "sha256": "81dd7ceaed2154daf4438f5928b37e9c4ee17659f9486644053798d3191c28f9",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/RPnTopClassTransferNonzero.lean": {
+      "original_sha256": "79a4b453e5c98286ab0ea657da531cb629fe7930070b3cc3e484a2770a41e791",
+      "reviewed_port_sha256": "2748fb8d82d23b868a22a83bf46023d27dd5fed223563e66a399b11ff203a6ee",
+      "sha256": "3c7774c96f8be021d622b4f4c6dc950acdef07ef2e82e4c952c28a8fe35a6bdd",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/RealProjectiveSpaceInclusion.lean": {
+      "original_sha256": "b9077b39aa42d18b118ef254d94713e2feabeb635ec218464979dfded9b26e6c",
+      "reviewed_port_sha256": "b9077b39aa42d18b118ef254d94713e2feabeb635ec218464979dfded9b26e6c",
+      "sha256": "b9077b39aa42d18b118ef254d94713e2feabeb635ec218464979dfded9b26e6c",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnInclusionCohomology.lean": {
+      "original_sha256": "9e8aa8c2ff95ab8f492e577a1a9924e9a51159f964c2c97512fbeb3497e5af89",
+      "reviewed_port_sha256": "9e8aa8c2ff95ab8f492e577a1a9924e9a51159f964c2c97512fbeb3497e5af89",
+      "sha256": "9e8aa8c2ff95ab8f492e577a1a9924e9a51159f964c2c97512fbeb3497e5af89",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnAdditiveCohomology.lean": {
+      "original_sha256": "bff31ea9cb6c9910173c97f397d942e23acc49b99edbba62febd8b58c80b0d28",
+      "reviewed_port_sha256": "bff31ea9cb6c9910173c97f397d942e23acc49b99edbba62febd8b58c80b0d28",
+      "sha256": "bff31ea9cb6c9910173c97f397d942e23acc49b99edbba62febd8b58c80b0d28",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnTopClassTransferSurjective.lean": {
+      "original_sha256": "7e250aa038373b8bb6a0b62d005fd1b806a1370888868dd231fb730274514b56",
+      "reviewed_port_sha256": "7e250aa038373b8bb6a0b62d005fd1b806a1370888868dd231fb730274514b56",
+      "sha256": "7e250aa038373b8bb6a0b62d005fd1b806a1370888868dd231fb730274514b56",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnGysinConnecting.lean": {
+      "original_sha256": "af849cc6230d676d31a391a421fcb0f1ade94b699554320e204b02d2b8b82649",
+      "reviewed_port_sha256": "af849cc6230d676d31a391a421fcb0f1ade94b699554320e204b02d2b8b82649",
+      "sha256": "af849cc6230d676d31a391a421fcb0f1ade94b699554320e204b02d2b8b82649",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnW1Cochain.lean": {
+      "original_sha256": "aa48a8206f78cd6bd2b2caee2c605cd4b3e964138881074d9b34d54f54f31e46",
+      "reviewed_port_sha256": "a84c10df4f089286dc7f2d54b94145ee688108337537a981a55b29d1256eec4e",
+      "sha256": "d9c61a5733ff5410e4c2702cd03e148f41d2e6f29646a4582baf175d48b596ea",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/RPnMonodromyFunctional.lean": {
+      "original_sha256": "8eb5d3d626bddbb095a38107ce80a8320b4bd49b5f9d692cdcc836628dd9d964",
+      "reviewed_port_sha256": "064081de0b70098a5cb039fedfb9f15804a2ba0ff8c5734c4561693b9c7fa5ec",
+      "sha256": "d49bf9fd7e52f34ad3947f727812c21f1d94457963b391aa9dfc80ed7c45b151",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/ActualRPAlpha.lean": {
+      "original_sha256": "488f1e01b3f8bf5b8027873435214affa6b65b7d8c92d3167252843d81657180",
+      "reviewed_port_sha256": "488f1e01b3f8bf5b8027873435214affa6b65b7d8c92d3167252843d81657180",
+      "sha256": "488f1e01b3f8bf5b8027873435214affa6b65b7d8c92d3167252843d81657180",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnW1ClassEqActualRPAlpha.lean": {
+      "original_sha256": "96487bf33a5abc022b5bc3141a3a279eed53362ed1c91c027000fdb2b527eae5",
+      "reviewed_port_sha256": "96487bf33a5abc022b5bc3141a3a279eed53362ed1c91c027000fdb2b527eae5",
+      "sha256": "96487bf33a5abc022b5bc3141a3a279eed53362ed1c91c027000fdb2b527eae5",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnGysinConnectingCup.lean": {
+      "original_sha256": "b227bfab6fa8fe392861f1f376282d2f4150ede3d4aa91c84e519bfe04448fab",
+      "reviewed_port_sha256": "b4527a913568b633bd3eeec84b95691803f9496a123b6f8aef80577dc84ab339",
+      "sha256": "254e7f55536e8cce07aba8d25fe04d8cd78aa70fbe6c37314a999e40ffd726dc",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/RPnGysinConnectingInjective.lean": {
+      "original_sha256": "9dbca94ae0faa7973d6c8ee40855d29e13f7d90abfdc13c7ced452f703804afa",
+      "reviewed_port_sha256": "9dbca94ae0faa7973d6c8ee40855d29e13f7d90abfdc13c7ced452f703804afa",
+      "sha256": "9dbca94ae0faa7973d6c8ee40855d29e13f7d90abfdc13c7ced452f703804afa",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnGysinConnectingInjectiveLt.lean": {
+      "original_sha256": "f4fb43ba7f0c19aae103c84266c7ba0a5d034542fd859e16a8694ee60f6ababd",
+      "reviewed_port_sha256": "f4fb43ba7f0c19aae103c84266c7ba0a5d034542fd859e16a8694ee60f6ababd",
+      "sha256": "f4fb43ba7f0c19aae103c84266c7ba0a5d034542fd859e16a8694ee60f6ababd",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnRelativeCohomologyOneCell.lean": {
+      "original_sha256": "dbc040ac4da9e10bb0fefa8da1436264d8d41148bb84bdf702ff65d3257e2d5b",
+      "reviewed_port_sha256": "dbc040ac4da9e10bb0fefa8da1436264d8d41148bb84bdf702ff65d3257e2d5b",
+      "sha256": "dbc040ac4da9e10bb0fefa8da1436264d8d41148bb84bdf702ff65d3257e2d5b",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnCellularCochainStructure.lean": {
+      "original_sha256": "a048740d537ef01c32d19b02b3ccfcb2d251403a189892f18d4c3189ec25cc06",
+      "reviewed_port_sha256": "a048740d537ef01c32d19b02b3ccfcb2d251403a189892f18d4c3189ec25cc06",
+      "sha256": "a048740d537ef01c32d19b02b3ccfcb2d251403a189892f18d4c3189ec25cc06",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnSingularToCellularComparison.lean": {
+      "original_sha256": "c07b90ca0bcb85c2b7eb89a1d2a9e4d75c9fd1d8374318855375dad8620cd0bb",
+      "reviewed_port_sha256": "c07b90ca0bcb85c2b7eb89a1d2a9e4d75c9fd1d8374318855375dad8620cd0bb",
+      "sha256": "c07b90ca0bcb85c2b7eb89a1d2a9e4d75c9fd1d8374318855375dad8620cd0bb",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnCupProductGenerator.lean": {
+      "original_sha256": "263c3dab9a7ef16fdd2f6545f96db71045a6d70adaccab3aedb4978c6bda2396",
+      "reviewed_port_sha256": "263c3dab9a7ef16fdd2f6545f96db71045a6d70adaccab3aedb4978c6bda2396",
+      "sha256": "263c3dab9a7ef16fdd2f6545f96db71045a6d70adaccab3aedb4978c6bda2396",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnActualAlphaPowerNonvanishing.lean": {
+      "original_sha256": "a54d2666b29b0f7964797ab78388c0ba51475f1d32939adfd1143a338d46ec94",
+      "reviewed_port_sha256": "a54d2666b29b0f7964797ab78388c0ba51475f1d32939adfd1143a338d46ec94",
+      "sha256": "a54d2666b29b0f7964797ab78388c0ba51475f1d32939adfd1143a338d46ec94",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnGeneratorIdentificationTarget.lean": {
+      "original_sha256": "501326b21976eea5ccb8267e74c6d170a60acd641f26b03fcfc5ba46b2ef2805",
+      "reviewed_port_sha256": "501326b21976eea5ccb8267e74c6d170a60acd641f26b03fcfc5ba46b2ef2805",
+      "sha256": "501326b21976eea5ccb8267e74c6d170a60acd641f26b03fcfc5ba46b2ef2805",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnCupProductModelCompatibility.lean": {
+      "original_sha256": "1e9acfe9e04794e98328ed39bd2d7b80d8c9e71ec077f683dd8b3e15cf568f51",
+      "reviewed_port_sha256": "334722c8882e4810190fe58e776bec2ae28b98c4fb41d84a0ed8a86b33c8bb8b",
+      "sha256": "22f3ebb75f5f9c4b0ad257b016e9b9e27f63ab1e9f24362daeb739ea9b07a5d5",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/RPnDegreeOneGenerator.lean": {
+      "original_sha256": "3ae1e277e1cd588cf9c7a134eb82748203d8179e92957b6d9bfaa2863232d570",
+      "reviewed_port_sha256": "3ae1e277e1cd588cf9c7a134eb82748203d8179e92957b6d9bfaa2863232d570",
+      "sha256": "3ae1e277e1cd588cf9c7a134eb82748203d8179e92957b6d9bfaa2863232d570",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPAlphaEqualsModelGenerator.lean": {
+      "original_sha256": "be3e1716a29f58928d40c4df3c8b9bb87f8eaa47ce88a5c92594b5115e8ea5d9",
+      "reviewed_port_sha256": "102e5ec5ab1d9afc86ac368dfa67c0cc4ae8a41897812e8e554cf0da99d642d7",
+      "sha256": "faab0cebb05ee25bfc83f123dd4eca61dd1e19a957cc10192e90a99523cc226d",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/RPnActualAlphaPowerNoCup.lean": {
+      "original_sha256": "ef60fb35d9b80c6c496dc93080a7170d9094e4aa625c5274e572105a08d2e737",
+      "reviewed_port_sha256": "ef60fb35d9b80c6c496dc93080a7170d9094e4aa625c5274e572105a08d2e737",
+      "sha256": "ef60fb35d9b80c6c496dc93080a7170d9094e4aa625c5274e572105a08d2e737",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnActualTopPowerFinalAssembly.lean": {
+      "original_sha256": "1497a4f1f8e28f65faf754bffe0bf90ddec7e1da17f74c401efa90741b21ebf2",
+      "reviewed_port_sha256": "6cb825163b8e8ebdad53cfdf27aa3f04473895c78779c25ed8987b58940f2be3",
+      "sha256": "7d078d380d386c554b1f9195322e14476eed67bbddb1e2b192c7ee6b4201cae3",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/RPnTopClassTransferAssembly.lean": {
+      "original_sha256": "71885c53a098a7c900301dab78d2fdcb2afd2e8c302cc49bb88922157d77cbab",
+      "reviewed_port_sha256": "71885c53a098a7c900301dab78d2fdcb2afd2e8c302cc49bb88922157d77cbab",
+      "sha256": "71885c53a098a7c900301dab78d2fdcb2afd2e8c302cc49bb88922157d77cbab",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/Branch4TransferAPI.lean": {
+      "original_sha256": "d41a3f75198c064e415a02159644d51727592bfcd585c53a7d11b3f5de2ac64d",
+      "reviewed_port_sha256": "d41a3f75198c064e415a02159644d51727592bfcd585c53a7d11b3f5de2ac64d",
+      "sha256": "d41a3f75198c064e415a02159644d51727592bfcd585c53a7d11b3f5de2ac64d",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnActualAlphaPowersGenerate.lean": {
+      "original_sha256": "7b84d31ab354f47f02d399417117952bc6d78507e797d1ed331d7aaffd871cdd",
+      "reviewed_port_sha256": "7b84d31ab354f47f02d399417117952bc6d78507e797d1ed331d7aaffd871cdd",
+      "sha256": "7b84d31ab354f47f02d399417117952bc6d78507e797d1ed331d7aaffd871cdd",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnGeneratorIdentification.lean": {
+      "original_sha256": "e1d709d35521ff1bd690d68f46617dc5856c01e4e869e854cf3ef1ffe65d08dc",
+      "reviewed_port_sha256": "e1d709d35521ff1bd690d68f46617dc5856c01e4e869e854cf3ef1ffe65d08dc",
+      "sha256": "e1d709d35521ff1bd690d68f46617dc5856c01e4e869e854cf3ef1ffe65d08dc",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/Hausdorff.lean": {
+      "original_sha256": "fbfe4643a2c720c14ad5af6f9821eeb275e5265d1fa03cdfae67b40bb31a0efc",
+      "reviewed_port_sha256": "fbfe4643a2c720c14ad5af6f9821eeb275e5265d1fa03cdfae67b40bb31a0efc",
+      "sha256": "fbfe4643a2c720c14ad5af6f9821eeb275e5265d1fa03cdfae67b40bb31a0efc",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnFiltrationCofiber.lean": {
+      "original_sha256": "d93258aee1a44d9c9b80d8d1d2d3cb753bf6d574382ea0e5c69c3b76e0689b7f",
+      "reviewed_port_sha256": "e282f37830f4468ac156a61815edaa6071058262d93c0999242ca27d9376bcf7",
+      "sha256": "0f7f14f4b765ff6d1dc9e6ae80faa126f5ee5281697bac14a9b1c0a74bb73269",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/RPnCellularFiltration.lean": {
+      "original_sha256": "6c16e1187c6fc7346582e483e2c5cbb0bd9beb4f8eb66388e7f345109751ad80",
+      "reviewed_port_sha256": "6c16e1187c6fc7346582e483e2c5cbb0bd9beb4f8eb66388e7f345109751ad80",
+      "sha256": "6c16e1187c6fc7346582e483e2c5cbb0bd9beb4f8eb66388e7f345109751ad80",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnCellularCochain.lean": {
+      "original_sha256": "63cb47a81cc79bde0da7eca661c0d825b830a125b0c94259561dceeee83a5445",
+      "reviewed_port_sha256": "63cb47a81cc79bde0da7eca661c0d825b830a125b0c94259561dceeee83a5445",
+      "sha256": "63cb47a81cc79bde0da7eca661c0d825b830a125b0c94259561dceeee83a5445",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnCellularCupProduct.lean": {
+      "original_sha256": "6dc52c19c69c8af19f0236b6735a201023a06b4413176f6ad9dc1d1839eb9661",
+      "reviewed_port_sha256": "6dc52c19c69c8af19f0236b6735a201023a06b4413176f6ad9dc1d1839eb9661",
+      "sha256": "6dc52c19c69c8af19f0236b6735a201023a06b4413176f6ad9dc1d1839eb9661",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnCellularDiagonal.lean": {
+      "original_sha256": "1dcb68223d0aced7967fd818a6c57da71a29d01e59d6b72c1f64fb8a5e256bd5",
+      "reviewed_port_sha256": "1dcb68223d0aced7967fd818a6c57da71a29d01e59d6b72c1f64fb8a5e256bd5",
+      "sha256": "1dcb68223d0aced7967fd818a6c57da71a29d01e59d6b72c1f64fb8a5e256bd5",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnCupProductStructureConstruction.lean": {
+      "original_sha256": "4d373f4588e9924f6264a9e7c73f3fac06500a28a7ce68edd390f112562284b3",
+      "reviewed_port_sha256": "9893299dbf07c90ef60d9373e3be861ba968c51bfe76da63fbc8309203d4260e",
+      "sha256": "9d8564f60a0ed0c3c86f153f919871f410d4dc184cd708cdf53da3bba67c2751",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/RPnSingularCellularCupComparison.lean": {
+      "original_sha256": "e038361b23208c74831710635642de1e98f1e8e5a6478bb8fefb1dadaaf0136a",
+      "reviewed_port_sha256": "e038361b23208c74831710635642de1e98f1e8e5a6478bb8fefb1dadaaf0136a",
+      "sha256": "e038361b23208c74831710635642de1e98f1e8e5a6478bb8fefb1dadaaf0136a",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnCupProductNonvanishingTarget.lean": {
+      "original_sha256": "43d5f9c375b2ab47644fd14798902f3f4c305da971b484abcd545fdf5520828f",
+      "reviewed_port_sha256": "43d5f9c375b2ab47644fd14798902f3f4c305da971b484abcd545fdf5520828f",
+      "sha256": "43d5f9c375b2ab47644fd14798902f3f4c305da971b484abcd545fdf5520828f",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnCupProductNonvanishing.lean": {
+      "original_sha256": "97cfea9d49a2d26e0054ccc49ec2b1ab4fa1a3a7fd18eb08cab830d9838c4888",
+      "reviewed_port_sha256": "97cfea9d49a2d26e0054ccc49ec2b1ab4fa1a3a7fd18eb08cab830d9838c4888",
+      "sha256": "97cfea9d49a2d26e0054ccc49ec2b1ab4fa1a3a7fd18eb08cab830d9838c4888",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnActualAlphaPowerEqGeneratorNoCup.lean": {
+      "original_sha256": "5a1538dece6bab9eb515fb4f6cc7a1371a6b7aac4f4e0b2ca4e89920490ff138",
+      "reviewed_port_sha256": "5a1538dece6bab9eb515fb4f6cc7a1371a6b7aac4f4e0b2ca4e89920490ff138",
+      "sha256": "5a1538dece6bab9eb515fb4f6cc7a1371a6b7aac4f4e0b2ca4e89920490ff138",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnGeneratorCupNoCup.lean": {
+      "original_sha256": "a730da2a2375aa6b4779897c01c4cf20b70ee3776fd8e1244817f6df104a9b09",
+      "reviewed_port_sha256": "608cc439fbce0d45849ba3b52c94c3b4d80dc2b06a8e23169f2c35aa81b9ab1c",
+      "sha256": "7116dd5b2c643b29e326cd7055248058c9e942c9c191260cc94d812069ecc930",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/RPnCupProductStructureFinal.lean": {
+      "original_sha256": "65e37974da643ffd4ab3ec276149da5236fdc3fbd643715a49ff0503822c8db7",
+      "reviewed_port_sha256": "65e37974da643ffd4ab3ec276149da5236fdc3fbd643715a49ff0503822c8db7",
+      "sha256": "65e37974da643ffd4ab3ec276149da5236fdc3fbd643715a49ff0503822c8db7",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/Branch3RPnGeneratorIdentificationFromCellular.lean": {
+      "original_sha256": "91d53020108e6213a91c92502109052a9c05775f079758a343bd04b07a184711",
+      "reviewed_port_sha256": "91d53020108e6213a91c92502109052a9c05775f079758a343bd04b07a184711",
+      "sha256": "91d53020108e6213a91c92502109052a9c05775f079758a343bd04b07a184711",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/Branch4TransferTopClass.lean": {
+      "original_sha256": "aac5139509fb4d02100e2212891274d6ef724abf465a44dcebaedb715d9948bd",
+      "reviewed_port_sha256": "aac5139509fb4d02100e2212891274d6ef724abf465a44dcebaedb715d9948bd",
+      "sha256": "aac5139509fb4d02100e2212891274d6ef724abf465a44dcebaedb715d9948bd",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/Branch4TransferNonzero.lean": {
+      "original_sha256": "582a5abac668b7c2601ac1f2a4a0a117f6b2c8311e306e5f6adca22eb615c947",
+      "reviewed_port_sha256": "582a5abac668b7c2601ac1f2a4a0a117f6b2c8311e306e5f6adca22eb615c947",
+      "sha256": "582a5abac668b7c2601ac1f2a4a0a117f6b2c8311e306e5f6adca22eb615c947",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/Branch4TransferWitness.lean": {
+      "original_sha256": "34509486acd653257fbd88a1943d61ead51a41d372eefe3431c203789794cd28",
+      "reviewed_port_sha256": "34509486acd653257fbd88a1943d61ead51a41d372eefe3431c203789794cd28",
+      "sha256": "34509486acd653257fbd88a1943d61ead51a41d372eefe3431c203789794cd28",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/Branch4RPnTopClassTransfer.lean": {
+      "original_sha256": "a2afcbfa81fe115877dc701c99f51365b9602931955b0e6ad1b97d61764fe5b6",
+      "reviewed_port_sha256": "a2afcbfa81fe115877dc701c99f51365b9602931955b0e6ad1b97d61764fe5b6",
+      "sha256": "a2afcbfa81fe115877dc701c99f51365b9602931955b0e6ad1b97d61764fe5b6",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/Branch4TransferNonvanishing.lean": {
+      "original_sha256": "a469d421640fc68a76729f2e3bddb52333a5029fab2b5433805641544202469b",
+      "reviewed_port_sha256": "a469d421640fc68a76729f2e3bddb52333a5029fab2b5433805641544202469b",
+      "sha256": "a469d421640fc68a76729f2e3bddb52333a5029fab2b5433805641544202469b",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/Branch34OddMapFixesTopClassAssembly.lean": {
+      "original_sha256": "bc63d092239ffa31f70c60976c33853cbd858a4b2d73dcbf55b628668617086e",
+      "reviewed_port_sha256": "bc63d092239ffa31f70c60976c33853cbd858a4b2d73dcbf55b628668617086e",
+      "sha256": "bc63d092239ffa31f70c60976c33853cbd858a4b2d73dcbf55b628668617086e",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/AlgebraicTopology/Branch4TransferNonvanishingUnconditional.lean": {
+      "original_sha256": "2c3c92c9d5d9f9d7a7e257fc235be0e9cf1de310592c81731291e17048ea8ffd",
+      "reviewed_port_sha256": "2c3c92c9d5d9f9d7a7e257fc235be0e9cf1de310592c81731291e17048ea8ffd",
+      "sha256": "2c3c92c9d5d9f9d7a7e257fc235be0e9cf1de310592c81731291e17048ea8ffd",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/Final/OddMapFixesTopClassUnconditional.lean": {
+      "original_sha256": "f4b9b814b33cf1b82fb34a534040f2ffbb44c037cd8db7ac4c772e3daf183818",
+      "reviewed_port_sha256": "f4b9b814b33cf1b82fb34a534040f2ffbb44c037cd8db7ac4c772e3daf183818",
+      "sha256": "f4b9b814b33cf1b82fb34a534040f2ffbb44c037cd8db7ac4c772e3daf183818",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/Final/FinalUnconditional.lean": {
+      "original_sha256": "5a1aec9a3ab831be6ebc83c793491c059b166e575646339b0570ae3e2fc6a6e7",
+      "reviewed_port_sha256": "5a1aec9a3ab831be6ebc83c793491c059b166e575646339b0570ae3e2fc6a6e7",
+      "sha256": "5a1aec9a3ab831be6ebc83c793491c059b166e575646339b0570ae3e2fc6a6e7",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnHomologyNotation.lean": {
+      "original_sha256": "056c09689536b0cd997c121e1f2f0cd0d4155bf85518f98786738313221e68d9",
+      "reviewed_port_sha256": "056c09689536b0cd997c121e1f2f0cd0d4155bf85518f98786738313221e68d9",
+      "sha256": "056c09689536b0cd997c121e1f2f0cd0d4155bf85518f98786738313221e68d9",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/SphereModTwoHomologyAboveDimension.lean": {
+      "original_sha256": "6a5a4ff9652d429c3f04c56537e4d7d8efc75d9fbcd7f89945cdb6517f6dfcca",
+      "reviewed_port_sha256": "35c848f4c697a0a8e026f1baf5cecce30bc79ad8990e9f35f14464ba04637b37",
+      "sha256": "74f2d3fc0660bea6ec30a961cc8540eaebd42dd9db69ea51beb0b666afe1089a",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/RPnAffineCover.lean": {
+      "original_sha256": "197e49a92e02db93bd27a4ac4e2eb2a16bdd4d5ff784ce94c5b712721387bf91",
+      "reviewed_port_sha256": "197e49a92e02db93bd27a4ac4e2eb2a16bdd4d5ff784ce94c5b712721387bf91",
+      "sha256": "197e49a92e02db93bd27a4ac4e2eb2a16bdd4d5ff784ce94c5b712721387bf91",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnDeletedNorthDeformation.lean": {
+      "original_sha256": "24884a696276e0241876862968830f4e89fef1b510e19cedf019869087f2b3a3",
+      "reviewed_port_sha256": "55675c270cc006878fead10d02695a95d0af97a74de6b961852f8ede964f8c65",
+      "sha256": "cdc1d4b54d6f0d9432b67a7ccc2f0e15b4fe6d0224c01359cd94c3a6d9d5163c",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/RPnAffineCellContractible.lean": {
+      "original_sha256": "99829445a807a02b2869c21c91220233bc698f83b5eb4bbda3c2ba51ddcf6b23",
+      "reviewed_port_sha256": "044b9c7e027f7324592df03ebc76c67d4c672fe4f22e35e47c825ce990df5991",
+      "sha256": "a10773bf1b81a14200830df4c0c3265f82db4a88189e5096efce5b775ea1a2fe",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/RPnAffineOverlapSphere.lean": {
+      "original_sha256": "ce6861b3f04f04e14add053728cddee84382e2772c71c663ce6c9e2e173b7d5c",
+      "reviewed_port_sha256": "173ffab5831c5fe3e22cea52e7a1e71f498dd7cdd7deb33fb4bf6d4da2bdac8e",
+      "sha256": "435b70940397f1c7e50d857ea78406126d1b2a808b47c87ef178c6005cb86d0e",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/RPnMayerVietorisSpecial.lean": {
+      "original_sha256": "ca699ed4f38ba4dad7aa52ae1b16a2232ffd4e0fd131dbf58d5b94aa9585df50",
+      "reviewed_port_sha256": "ca699ed4f38ba4dad7aa52ae1b16a2232ffd4e0fd131dbf58d5b94aa9585df50",
+      "sha256": "ca699ed4f38ba4dad7aa52ae1b16a2232ffd4e0fd131dbf58d5b94aa9585df50",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/RPnHomologyDimensionVanishing.lean": {
+      "original_sha256": "50e0a4a71de2284bd10881e924aadc1c0936382bf251a1e52741d841b0d5f8ad",
+      "reviewed_port_sha256": "dccf1b7c5a9a0a9f6b18f019475c3b303254b1863039eaaef274744c9d95376a",
+      "sha256": "487a6fa4507b60ed56b0ace1fdb0250413a50e34fcd7b6c611188e7b88bd3ec7",
+      "modified": true
+    },
+    "HamSandwich/SphereOddDegree/RPnCohomologyDimensionVanishing.lean": {
+      "original_sha256": "48cd2501832c3ef27fac6c94520c6ae0e1062994bce71556d6e87b286f98cd3a",
+      "reviewed_port_sha256": "48cd2501832c3ef27fac6c94520c6ae0e1062994bce71556d6e87b286f98cd3a",
+      "sha256": "48cd2501832c3ef27fac6c94520c6ae0e1062994bce71556d6e87b286f98cd3a",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/Final/OddDegreeTheoremUnconditional.lean": {
+      "original_sha256": "9126f3f191c888b5d909365f5186b134ddac290de9b63d157241b6000f297a58",
+      "reviewed_port_sha256": "9126f3f191c888b5d909365f5186b134ddac290de9b63d157241b6000f297a58",
+      "sha256": "9126f3f191c888b5d909365f5186b134ddac290de9b63d157241b6000f297a58",
+      "modified": false
+    },
+    "HamSandwich/SphereOddDegree/BorsukUlam.lean": {
+      "original_sha256": "1aecf80413bd35a1a6a98825ae03a69f50bec9d674afc8dd2a1ddb83bc02711e",
+      "reviewed_port_sha256": "5f4ad188c6c4c217f918f52bd93e888a5494f0443662140ca8274b5b08413a5a",
+      "sha256": "aa301cf9b0dd4d782e504cf91e470a7d873e9a66ea08dbb6849d5ad822caa21f",
+      "modified": true
+    }
+  }
+}

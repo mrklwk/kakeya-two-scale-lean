@@ -1,0 +1,10 @@
+module
+public import KakeyaTwoScale.ZahlAssemblyCheckpoint
+public import KakeyaTwoScale.ActualTerminalObjective
+public import KakeyaTwoScale.ActualShortPrefixConstraint
+public import KakeyaTwoScale.ActualActivePrefix
+
+@[expose] public section
+
+#print axioms KakeyaTwoScale.ActualBufferedArchive.exists_terminal_degree_objective
+#print axioms KakeyaTwoScale.ActualBufferedArchive.entryAt_active_length_step

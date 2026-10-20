@@ -1,0 +1,13 @@
+module
+public import KakeyaTwoScale.KakeyaDependencyClosed
+public import KakeyaTwoScale.LongPrefixCheckpoint
+
+@[expose] public section
+
+#print axioms KakeyaTwoScale.eventually_concrete_stopped_optimization
+#print axioms KakeyaTwoScale.eventually_root_band_epsilon
+#print axioms KakeyaTwoScale.eventually_global_root_mass
+#print axioms KakeyaTwoScale.tuple_lintegral_le_root_mass
+#print axioms KakeyaTwoScale.eventually_original_wedge_bands
+#print axioms KakeyaTwoScale.published_zahl_cylinder_estimate
+#print axioms KakeyaTwoScale.kakeya_upperMinkowski_lower

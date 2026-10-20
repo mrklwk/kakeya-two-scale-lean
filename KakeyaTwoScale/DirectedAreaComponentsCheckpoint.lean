@@ -1,0 +1,12 @@
+module
+public import KakeyaTwoScale.EndpointAssemblyCheckpoint
+public import KakeyaTwoScale.MeasurablePolynomialCrossings
+public import KakeyaTwoScale.ConcreteRootBandLoss
+public import KakeyaTwoScale.AllRadiusPublishedAssembly
+
+@[expose] public section
+
+#print axioms KakeyaTwoScale.exists_direction_crossing_budget
+#print axioms KakeyaTwoScale.measurable_frame_crossing_count
+#print axioms KakeyaTwoScale.published_zahl_of_positive_bands
+#print KakeyaTwoScale.kakeya_upperMinkowski_lower_of_published_zahl

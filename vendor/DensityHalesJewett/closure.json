@@ -1,0 +1,15 @@
+[
+  "DensityHalesJewett/Word.lean",
+  "DensityHalesJewett/Subspace.lean",
+  "DensityHalesJewett/Canonization.lean",
+  "DensityHalesJewett/FiniteUnions.lean",
+  "DensityHalesJewett/GrahamRothschild.lean",
+  "DensityHalesJewett/UniformFibers.lean",
+  "DensityHalesJewett/DensityIncrement/Parameters.lean",
+  "DensityHalesJewett/Insensitive.lean",
+  "DensityHalesJewett/DensityIncrement/CorrelatedFibers.lean",
+  "DensityHalesJewett/DensityIncrement/StructuredCorrelation.lean",
+  "DensityHalesJewett/DensityIncrement.lean",
+  "DensityHalesJewett/Main.lean",
+  "DensityHalesJewett/Szemeredi.lean"
+]

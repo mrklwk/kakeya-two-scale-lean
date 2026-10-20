@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "verification_date": "2026-10-20",
+  "selected_theorem": "PalomarKakeya.upperMinkowski_lower",
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "endpoint": "ordinary upper Minkowski dimension >= 597n/1000 for bounded Kakeya sets, n >= 4",
+  "lean_version": "4.35.0-rc2",
+  "lean_commit": "11acb17ec6b07a8f9e9173e6845197929540936b",
+  "mathlib_commit": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+  "method": "Stock Linux Lake Comparator with bubblewrap sandbox enabled",
+  "statement_alignment": "PASS",
+  "permitted_axiom_check": "PASS",
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "solution_export_kernels": [
+    {
+      "name": "NanoDa",
+      "result": "accepted"
+    },
+    {
+      "name": "con-ron",
+      "mode": "--verified",
+      "result": "accepted"
+    },
+    {
+      "name": "Lean default kernel",
+      "result": "accepted"
+    }
+  ],
+  "external_kernel_commands": {
+    "nanoda": [
+      "nanoda_bin"
+    ],
+    "con-ron": [
+      "con-ron",
+      "--verified",
+      "--jobs=4",
+      "--progress=10000"
+    ]
+  },
+  "local_project_dependency_modules_built": 1049,
+  "challenge_and_solution_modules_built": 2,
+  "preserved_lean_source_files": 1057,
+  "additional_files_outside_selected_import_graph": [
+    "KakeyaTwoScale.GeneralDegreeCheckpoint",
+    "KakeyaTwoScale.LargeScaleClosureCheckpoint",
+    "KakeyaTwoScale.LongPrefixCheckpoint",
+    "KakeyaTwoScale.TopDimensionalZahl",
+    "KakeyaTwoScale.WeightedFlatMultilinear",
+    "KakeyaTwoScale.ZahlAssemblyCheckpoint"
+  ],
+  "scope_note": "The selected Challenge/Solution endpoint was built and exported. All 1057 Lean source hashes matched before and after checking. The six auxiliary files are not claimed to be part of that selected import graph.",
+  "proof_source_manifest": "verification/PROOF_SOURCE_SHA256.json",
+  "proof_source_manifest_sha256": "f35016de761fbf87c0717596321600f7b779c9d401d0262954698a01868cde3a",
+  "solution_source_sha256": "c2ae141b7e7a7ce8d466153c5cc21114430bd76f7b673923c18a36c06636f747",
+  "submitted_comparator_sha256": "15f3f2394de3b8cd31667428fe17e27619db338a3b410d4c9f6cd9b07d9e9eb1",
+  "comparator_log_sha256": "6af474d4b55f862ae9aef0cb19202984b7978fe896e72eea767ebda8f69f2ed5",
+  "export_retention": "The stock Comparator used temporary export files. No persistent export hash is asserted for this run.",
+  "review_disclosure": "No human peer review is claimed."
+}

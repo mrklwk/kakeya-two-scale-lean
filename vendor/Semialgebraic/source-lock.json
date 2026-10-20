@@ -1,0 +1,127 @@
+{
+  "OAI/Analysis/SymmetricDomains/PolynomialSignSetChoice2.lean": {
+    "upstream_sha256": "847f53e201adda6acf6995916a7de8292c57dffb47669c95240268153b995c08",
+    "local_sha256": "847f53e201adda6acf6995916a7de8292c57dffb47669c95240268153b995c08",
+    "modified": false
+  },
+  "OAI/Analysis/SymmetricDomains/PolynomialSignSetChoice.lean": {
+    "upstream_sha256": "963fac5c65f9cbdaf90718bc0c5bee27ef6df2786a869c0a4d4ba04c6c552727",
+    "local_sha256": "963fac5c65f9cbdaf90718bc0c5bee27ef6df2786a869c0a4d4ba04c6c552727",
+    "modified": false
+  },
+  "OAI/Analysis/SymmetricDomains/PolynomialSignSetFinite2.lean": {
+    "upstream_sha256": "afa9746b9947712a5dce9295eafdc1189060d6f3634a9fea38d02a46305f12fc",
+    "local_sha256": "afa9746b9947712a5dce9295eafdc1189060d6f3634a9fea38d02a46305f12fc",
+    "modified": false
+  },
+  "OAI/Analysis/SymmetricDomains/PolynomialSignSetProjection2.lean": {
+    "upstream_sha256": "1837b37ab0f27c36bb72eeffc7e619f049e4741568561b56674fc4df9f241ee7",
+    "local_sha256": "1837b37ab0f27c36bb72eeffc7e619f049e4741568561b56674fc4df9f241ee7",
+    "modified": false
+  },
+  "OAI/Analysis/SymmetricDomains/PolynomialSignSetProjection.lean": {
+    "upstream_sha256": "a3e69b7f27a0e905b2e88ed4f4f2e7f679819c52c6fe7ab76a72f35e2ed144a8",
+    "local_sha256": "a3e69b7f27a0e905b2e88ed4f4f2e7f679819c52c6fe7ab76a72f35e2ed144a8",
+    "modified": false
+  },
+  "OAI/Analysis/SymmetricDomains/PolynomialSignSetSigns.lean": {
+    "upstream_sha256": "bbad8fc906dab793c0267ec3775b37b91d13ff358ac57709dd0a01ddf607ee8e",
+    "local_sha256": "bbad8fc906dab793c0267ec3775b37b91d13ff358ac57709dd0a01ddf607ee8e",
+    "modified": false
+  },
+  "OAI/Analysis/SymmetricDomains/PolynomialSignSetRoot.lean": {
+    "upstream_sha256": "bec7eaa69554eb18b31ac71d00b667fcf0afc67f811e6304ea9e0b8eb9a55b49",
+    "local_sha256": "bec7eaa69554eb18b31ac71d00b667fcf0afc67f811e6304ea9e0b8eb9a55b49",
+    "modified": false
+  },
+  "OAI/Analysis/SymmetricDomains/PolynomialSignSetQuery.lean": {
+    "upstream_sha256": "05992495ca212875315d84669e1a8e8e99ea6fe072243d4b42298dcd299640f0",
+    "local_sha256": "05992495ca212875315d84669e1a8e8e99ea6fe072243d4b42298dcd299640f0",
+    "modified": false
+  },
+  "OAI/Analysis/SymmetricDomains/TarskiQueryCharpoly.lean": {
+    "upstream_sha256": "f09f27ec27eb6b136530c51ca0105af7c1e8c7734293b76473792f7e17ea0b88",
+    "local_sha256": "f09f27ec27eb6b136530c51ca0105af7c1e8c7734293b76473792f7e17ea0b88",
+    "modified": false
+  },
+  "OAI/Analysis/SymmetricDomains/HermiteSignature.lean": {
+    "upstream_sha256": "76eb6004fd1217c3baf60617d3b83998ac83d59d39c78e7727cb78b840493f85",
+    "local_sha256": "76eb6004fd1217c3baf60617d3b83998ac83d59d39c78e7727cb78b840493f85",
+    "modified": false
+  },
+  "OAI/Analysis/SymmetricDomains/RootEvaluationSurjective.lean": {
+    "upstream_sha256": "88227bce5db3529975e22faf367eeffd55cd80dd67c567e7eab9aa92d9af1335",
+    "local_sha256": "88227bce5db3529975e22faf367eeffd55cd80dd67c567e7eab9aa92d9af1335",
+    "modified": false
+  },
+  "OAI/Analysis/SymmetricDomains/InterpolateRealUpper.lean": {
+    "upstream_sha256": "be083265e74d8f5ce4c6ad6e1e12f465785984db5d94083c7b426dc8c17e16d1",
+    "local_sha256": "28ee162638bfd8b15181e06db9920da052093af408913799cd102d8b165d10b3",
+    "modified": true
+  },
+  "OAI/Analysis/SymmetricDomains/SignatureRootValues.lean": {
+    "upstream_sha256": "68278683f0e150e958577bc2a3c61b6740cc0c7632a329e443b8de1260fce1e0",
+    "local_sha256": "e394977cd62b6e6b53156746ee92d73ad981c52453901026d799f6302caf9400",
+    "modified": true
+  },
+  "OAI/Analysis/SymmetricDomains/RootSignPattern.lean": {
+    "upstream_sha256": "c34059a2f2497c785d0727afd300928ede0378bd400d15fd0c73df489cf83e2e",
+    "local_sha256": "42122dadc93612a9ec3843a4f75e844c5b859f4a86fe0d22e23326e6f04f8540",
+    "modified": true
+  },
+  "OAI/Analysis/SymmetricDomains/RootMomentCoefficients.lean": {
+    "upstream_sha256": "84a980a65bc09a0311adbb33f14a4d9eeb8bf3db8ef352bcde595c852409565b",
+    "local_sha256": "98df7cd0119d43700da91a4561fba091aa4a5b76f39a7006ecf3691fdfa0562a",
+    "modified": true
+  },
+  "OAI/Analysis/SymmetricDomains/SignVariationsPositiveRoots.lean": {
+    "upstream_sha256": "cab72a13776ad89a4316d7c16a73e20449b4fe8ecba668670545bfb1cc44080d",
+    "local_sha256": "49f72fda5af7bfe2dd81a04a5ea341b545b13d55f98d67060913506f72c6cefb",
+    "modified": true
+  },
+  "OAI/Analysis/SymmetricDomains/PolynomialSignSetFinite.lean": {
+    "upstream_sha256": "069a7a40ee343a93dec69e0ef59f2246ff9bf681d22fa5c2f256933ad930c78c",
+    "local_sha256": "069a7a40ee343a93dec69e0ef59f2246ff9bf681d22fa5c2f256933ad930c78c",
+    "modified": false
+  },
+  "OAI/Analysis/SymmetricDomains/PolynomialEmptyInterior.lean": {
+    "upstream_sha256": "4659adccfb62872f32d45a024adb5bd327658ce1c880ce79ca5f8a1f854d1955",
+    "local_sha256": "4ff13a941a7569760705b0097e33341d9efe44701bd65d491e6916ea8a27c8fb",
+    "modified": true
+  },
+  "OAI/Analysis/SymmetricDomains/SampleAllChambers.lean": {
+    "upstream_sha256": "2a1717255cef85b5f45a8c0ed18be96e200f85af62665237ccd7f8cffabbeac3",
+    "local_sha256": "2a1717255cef85b5f45a8c0ed18be96e200f85af62665237ccd7f8cffabbeac3",
+    "modified": false
+  },
+  "OAI/Analysis/SymmetricDomains/DecayWeightDeriv.lean": {
+    "upstream_sha256": "8b0df58b90b7457198a063b3a635b0401364d073194865af63e1ac05a96d279e",
+    "local_sha256": "77b5e4e62d043e7957469055c29ca42d5a0dddbc0c637cf8e4aa27c2336c6f18",
+    "modified": true
+  },
+  "OAI/Analysis/SymmetricDomains/GenericAlgebraicRamificationUniform.lean": {
+    "upstream_sha256": "32824767b230fcf11c855ec72456e10b34b1b7797ede2e89ea0b47b57ecd4453",
+    "local_sha256": "6abff8df2b033f7e2f4f31b01ec7253b5ea780231f5c6ed75d350b6022cdc45c",
+    "modified": true
+  },
+  "OAI/Analysis/SymmetricDomains/AlgebraicGraphPolynomial.lean": {
+    "upstream_sha256": "5a35a3680833141c088cf6063ab276ccadc228af95c21560a5b3c523fad8a46b",
+    "local_sha256": "5a35a3680833141c088cf6063ab276ccadc228af95c21560a5b3c523fad8a46b",
+    "modified": false
+  },
+  "OAI/Analysis/SymmetricDomains/RegularSimpleSheet.lean": {
+    "upstream_sha256": "b58bd58b15e1edfcb65307a2d9e9f9b6d0e3dcdfbd4e7b97436a1deb63a580e3",
+    "local_sha256": "b58bd58b15e1edfcb65307a2d9e9f9b6d0e3dcdfbd4e7b97436a1deb63a580e3",
+    "modified": false
+  },
+  "OAI/Analysis/SymmetricDomains/RealPolynomialAnalyticRoot.lean": {
+    "upstream_sha256": "05bb0c6637fe26019980ae305cd8422d696e83e042227f100488bf3b0f493bc0",
+    "local_sha256": "5082139f37e6b6d4e6b08772157c65770e0c9becb0836d70af93da3e6c108162",
+    "modified": true
+  },
+  "OAI/Analysis/SymmetricDomains/SquarefreeRelationOffDenominator.lean": {
+    "upstream_sha256": "ba1b54e30766b23ac545e2be69339de591b79ad26a9aa71c24f0d6d7d050a40d",
+    "local_sha256": "6e1ed717921f6406c6c8fba9cc904e97c1b8d9ede720644233b5523015474459",
+    "modified": true
+  }
+}

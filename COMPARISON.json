@@ -1,0 +1,18 @@
+{
+  "primary_source": "https://arxiv.org/pdf/math/0102135",
+  "location": "Theorem 1.1, p.1; upper Minkowski convention explicit in introduction and p.3",
+  "alpha_equation": "alpha^3 - 4 alpha + 2 = 0; alpha in (1,2)",
+  "exact_KT_bound": "n/alpha + (alpha-1)/alpha = 1+c_KT*(n-1)",
+  "c_KT": "0.596968283237315224128042278466601650127643655339448002108132",
+  "constant_term": "0.403031716762684775871957721533398349872356344660551997891868",
+  "headline_coefficient": "597/1000",
+  "coefficient_gain": "0.000031716762684775871957721533398349872356344660551997891868",
+  "real_crossover": "12707.2148178647829439373842854777782120868969719372049483242",
+  "first_integer_strictly_better": 12708,
+  "exact_rational_root_bracket": [
+    "9327629425583050377/15625000000000000000",
+    "5969682832373152241281/10000000000000000000000"
+  ],
+  "bracket_sign_checks": true,
+  "crossover_checks": "12707 negative even at lower root endpoint; 12708 positive even at upper root endpoint; gap increases with n"
+}

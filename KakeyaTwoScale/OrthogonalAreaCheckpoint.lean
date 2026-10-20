@@ -1,0 +1,11 @@
+module
+public import KakeyaTwoScale.WholeHypersurfaceCheckpoint
+public import KakeyaTwoScale.LocalizedAreaSeminorm
+
+@[expose] public section
+
+#print axioms KakeyaTwoScale.DisjointChartAtlas.frame_identity
+#print axioms KakeyaTwoScale.DisjointChartAtlas.directionalArea_independent
+#print axioms KakeyaTwoScale.polynomial_bounded_area_lt_top
+#print axioms KakeyaTwoScale.polynomialLocalizedAreaSeminorm_continuous
+#print KakeyaTwoScale.kakeya_upperMinkowski_lower_of_published_zahl

@@ -1,0 +1,10 @@
+module
+public import KakeyaTwoScale.ActualArchiveGeometricMassToLength
+public import KakeyaTwoScale.QuantitativeComponentsCheckpoint
+
+@[expose] public section
+
+#print axioms KakeyaTwoScale.retained_tuple_mass_le_cap_geometric_incidence
+#print axioms KakeyaTwoScale.root_tuple_scale_cancel
+#print axioms KakeyaTwoScale.ActualBufferedArchive.exists_archive_geometric_mass_to_length_ledger
+#print KakeyaTwoScale.kakeya_upperMinkowski_lower_of_published_zahl

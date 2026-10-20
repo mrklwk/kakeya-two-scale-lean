@@ -1,0 +1,24 @@
+{
+  "repository": "https://github.com/gdahia/DensityHalesJewett",
+  "commit": "1c2f5aa1b99caa8e2a87beacf80f07f066c309d3",
+  "upstream_lean": "4.34.0",
+  "upstream_mathlib": "56a9a88447f391672d7aeea117da03b6f7016b0d",
+  "replay_lean": "4.34.1",
+  "replay_mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "source_changes": [],
+  "files": {
+    "DensityHalesJewett/Word.lean": "dcd15770a868341d5dccc17023a5b97c32094a5d2f335f367f8a4fb26c8b4e63",
+    "DensityHalesJewett/Subspace.lean": "469c26c51d0b06e9fa07c3f7eee28419fab25e6a996e5aed8b707adb30115609",
+    "DensityHalesJewett/Canonization.lean": "e0e6dd9c98d489f98bb37088504fc2615f73e789b3f776f50c732f85e81e2e22",
+    "DensityHalesJewett/FiniteUnions.lean": "d3cf525b8fb0a96d63c4846ccc18c51569a6bc38b14dcdc33cdf733d6f3bd9af",
+    "DensityHalesJewett/GrahamRothschild.lean": "7b5e19269a7c5a889778aa4f657d53699a808c1e7ca50547cb7a3b3e2b9c6114",
+    "DensityHalesJewett/UniformFibers.lean": "a138dcca107e351d89a489bdfe7e746d26440ed9d3665312eacfca51a73573cc",
+    "DensityHalesJewett/DensityIncrement/Parameters.lean": "59e3c87664d011079316391edcf2e7b4c7b3fa885adcf635a3b478c8fa2d4f5a",
+    "DensityHalesJewett/Insensitive.lean": "952587328ae90c009e0f494d455b483643f0e5feb6a16bbce444cb6eed827cf1",
+    "DensityHalesJewett/DensityIncrement/CorrelatedFibers.lean": "c8260baee035f6a5c0db8d39d3c551dab25563f0816dfc9f3c62a189b750c639",
+    "DensityHalesJewett/DensityIncrement/StructuredCorrelation.lean": "cbb8901e6a505664727f8b74284fa5eed8216869665e2383c42e8bb0560a54d5",
+    "DensityHalesJewett/DensityIncrement.lean": "e606d45124450b725716e3bb522711274debaa054ff10e295639b0bd9e18c4f2",
+    "DensityHalesJewett/Main.lean": "e7ce0d3342b1d42bac7c43adf9e7b40e08687cac8ea392371724ef04ceff352f",
+    "DensityHalesJewett/Szemeredi.lean": "86ff57fc4fe591b6e5169f4bff5f1f1f846def5fe21a2d8669511b9006005c53"
+  }
+}

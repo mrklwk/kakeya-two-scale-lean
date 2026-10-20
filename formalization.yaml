@@ -1,0 +1,99 @@
+version: v0.4
+project:
+  name: Two-scale Kakeya upper Minkowski lower bound
+  description: >-
+    Every bounded Kakeya set in real Euclidean n-space, n at least 4, has ordinary
+    upper Minkowski dimension at least 597n/1000. The formalized conclusion uses
+    finite open-ball covers and a limsup through all positive radii tending to zero.
+    No additional analytic estimate is assumed. The project is pinned to Lean
+    4.35.0-rc2 and mathlib 065356127b1dc0016f66b7283ce0ce2c4055aa55.
+  authors: [Mark Lewko]
+  responsible_maintainers: [Mark Lewko]
+  license: AGPL-3.0-only
+repository:
+  role: substantive-development
+classification:
+  arxiv: [math.CA, math.CO]
+  msc2020: [42B25, 28A75]
+sources:
+  - title: New Kakeya estimates using Gromov's algebraic lemma
+    authors: [Joshua Zahl]
+    id: arXiv:1908.05314v4
+    location: https://arxiv.org/abs/1908.05314v4
+    type: article
+    relationship: adapts
+    author_endorsement: not-contacted
+    note: >-
+      Buffered neighborhood geometry and a floor-compatible stopping construction
+      supply the cylinder input. The printed intermediate contracts are not all
+      asserted verbatim.
+  - title: New bounds for Kakeya problems
+    authors: [Nets Hawk Katz, Terence Tao]
+    id: arXiv:math/0102135
+    location: https://arxiv.org/pdf/math/0102135
+    type: article
+    relationship: adapts
+    note: >-
+      Arithmetic projection input. The asymptotic coefficient comparison retains
+      the full affine bound 1 + c_KT(n - 1); the numerical crossover is n at least 12708.
+  - title: Generalized arithmetic Kakeya
+    authors: [C. Pohoata, D. Zakharov]
+    id: arXiv:2411.13395
+    type: preprint
+    relationship: adapts
+    note: Homogenization input.
+related_formalizations:
+  - id: https://github.com/gdahia/DensityHalesJewett/tree/1c2f5aa1b99caa8e2a87beacf80f07f066c309d3
+    relationship: builds-on
+    note: Vendored progression-selection dependency; upstream notices and source locks retained.
+  - id: https://github.com/akopjan/HamSandwich/tree/76202dbbb6610ffcebbccfbf7a56f833a4c2a376
+    relationship: adapts
+    note: Local compatibility port; upstream notices, modification notices and source locks retained.
+  - id: https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb
+    relationship: adapts
+    note: Semialgebraic subset with local modifications recorded in the retained provenance.
+status:
+  scope: >-
+    The selected Solution theorem is dependency-closed and gives the ordinary upper
+    Minkowski lower bound 597n/1000 for n at least 4. There is no Hausdorff or lower
+    Minkowski conclusion. Challenge contains one intentional statement hole; the
+    Solution proof sources contain no holes. Protected Comparator verification
+    covers the selected endpoint; PUBLIC_VERIFICATION.json specifies its scope.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: [propext, Classical.choice, Quot.sound]
+automation:
+  methods:
+    - method: agent
+      models: [GPT-6]
+      framework: Codex
+      tool_setup: Lean compiler, proof-closure inspection and documentation
+      prompting_notes: >-
+        Source-grounded Lean formalization and inspection. Exact model variants
+        for every historical worker were not fully recorded.
+  notes: >-
+    Project author and sole human responsible maintainer: Mark Lewko. Codex assisted
+    with Lean formalization, proof-closure inspection and documentation. No human
+    peer review is claimed. Upstream attribution is retained.
+fidelity:
+  divergences: >-
+    The exported endpoint is exactly 597n/1000 for n at least 4. Buffered relative
+    geometry and active-only lower component normalization are part of the
+    formalized construction. No extra analytic hypothesis remains. Stronger
+    internal conditional arithmetic is not promoted to the exported endpoint.
+review:
+  status: agent-reviewed
+  reviewers: [Codex]
+  notes: >-
+    No human peer review is claimed. The stock protected Linux Comparator passed
+    statement alignment and permitted-axiom checking. NanoDa, con-ron in verified
+    mode, and the Lean default kernel accepted the selected Solution export.
+    PUBLIC_VERIFICATION.json records the checker scope and source binding.
+alignment:
+  namespace: PalomarKakeya
+  statements:
+    - source: Ordinary upper Minkowski lower bound for bounded Kakeya sets
+      lean: PalomarKakeya.upperMinkowski_lower
+      module: Solution
+      status: adapted
+      note: Explicit open-ball covering definition and segment hypotheses; protected Comparator passed.

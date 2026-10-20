@@ -1,0 +1,12 @@
+module
+public import KakeyaTwoScale.GeneralDegreeCheckpoint
+public import KakeyaTwoScale.ConcreteLongDegreeConstraint
+public import KakeyaTwoScale.ActualUniformPrefixError
+public import KakeyaTwoScale.EventualPositiveBandAssembly
+
+@[expose] public section
+
+#print axioms KakeyaTwoScale.concrete_archive_long_degree_constraint
+#print axioms KakeyaTwoScale.exists_actual_uniform_prefix_error
+#print axioms KakeyaTwoScale.bounded_scale_wedge_bands
+#print axioms KakeyaTwoScale.dyadic_positive_bands_of_eventual

@@ -1,0 +1,11 @@
+module
+public import KakeyaTwoScale.OrthogonalAreaCheckpoint
+public import KakeyaTwoScale.MollifiedCoefficientArea
+
+@[expose] public section
+
+#print axioms KakeyaTwoScale.measurable_coefficientSphereArea
+#print axioms KakeyaTwoScale.coefficientAreaSeminorm_ofReal
+#print axioms KakeyaTwoScale.sphere_cap_distance_level_null
+#print axioms KakeyaTwoScale.continuous_mollifiedCoefficientArea
+#print KakeyaTwoScale.kakeya_upperMinkowski_lower_of_published_zahl

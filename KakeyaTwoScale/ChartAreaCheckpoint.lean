@@ -1,0 +1,11 @@
+module
+public import KakeyaTwoScale.DirectedAreaComponentsCheckpoint
+public import KakeyaTwoScale.ChartDirectedArea
+public import KakeyaTwoScale.SmoothInjectiveHypersurfaceChart
+
+@[expose] public section
+
+#print axioms KakeyaTwoScale.exact_jacobian_multiplicity_within
+#print axioms KakeyaTwoScale.polynomial_chart_cofactor_budget
+#print axioms KakeyaTwoScale.smooth_local_level_set_chart
+#print KakeyaTwoScale.kakeya_upperMinkowski_lower_of_published_zahl

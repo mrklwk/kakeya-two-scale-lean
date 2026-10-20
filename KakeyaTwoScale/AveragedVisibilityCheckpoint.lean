@@ -1,0 +1,11 @@
+module
+public import KakeyaTwoScale.CoefficientMollificationCheckpoint
+public import KakeyaTwoScale.ActualVisibilityStability
+
+@[expose] public section
+
+#print axioms KakeyaTwoScale.mollifiedAreaSeminorm_apply
+#print axioms KakeyaTwoScale.continuous_mollifiedArea_joint
+#print axioms KakeyaTwoScale.mollifiedVisibilityBody_compact
+#print axioms KakeyaTwoScale.mollifiedVisibilityBody_uniform_stability
+#print KakeyaTwoScale.kakeya_upperMinkowski_lower_of_published_zahl

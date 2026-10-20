@@ -1,0 +1,10 @@
+module
+public import KakeyaTwoScale.ChartAreaCheckpoint
+public import KakeyaTwoScale.AtlasDirectionalSublinearity
+
+@[expose] public section
+
+#print axioms KakeyaTwoScale.polynomial_disjoint_chart_atlas
+#print axioms KakeyaTwoScale.exists_polynomial_whole_area_budget
+#print axioms KakeyaTwoScale.DisjointChartAtlas.directionalArea_add_le
+#print KakeyaTwoScale.kakeya_upperMinkowski_lower_of_published_zahl

@@ -1,0 +1,12 @@
+Copyright (C) 2026 Mark Lewko
+
+SPDX-License-Identifier: AGPL-3.0-only
+
+Mark Lewko's original project material is licensed under the GNU Affero
+General Public License, version 3 only. See LICENSE for the full text.
+
+This choice does not relicense upstream material. All upstream copyright
+headers, license texts, provenance, and source locks remain in place.
+See THIRD_PARTY_NOTICES.md for the vendored dependencies.
+
+Project author and sole human responsible maintainer: Mark Lewko. Codex assisted with Lean formalization, proof-closure inspection and documentation. No human peer review is claimed. Upstream attribution is retained.

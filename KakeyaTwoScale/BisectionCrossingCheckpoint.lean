@@ -1,0 +1,11 @@
+module
+public import KakeyaTwoScale.TwoPathIntegralSeparation
+
+@[expose] public section
+
+#print axioms KakeyaTwoScale.polynomial_integrated_central_hub_crossing
+#print axioms KakeyaTwoScale.actual_mixed_crossing_integral
+#print axioms KakeyaTwoScale.transverseBallCount_area
+#print axioms KakeyaTwoScale.polynomial_box_crossing_area_bound
+#print axioms KakeyaTwoScale.crossing_box_factor
+#print KakeyaTwoScale.kakeya_upperMinkowski_lower_of_published_zahl

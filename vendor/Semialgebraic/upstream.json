@@ -1,0 +1,8 @@
+{
+  "repository": "openai/math",
+  "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "upstream_toolchain": "leanprover/lean4:v4.34.1",
+  "files": 25,
+  "modified_files": 10
+}
