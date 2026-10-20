@@ -20,7 +20,7 @@ sources:
     authors: [Joshua Zahl]
     id: arXiv:1908.05314v4
     location: https://arxiv.org/abs/1908.05314v4
-    type: article
+    type: paper
     relationship: adapts
     author_endorsement: not-contacted
     note: >-
@@ -31,7 +31,7 @@ sources:
     authors: [Nets Hawk Katz, Terence Tao]
     id: arXiv:math/0102135
     location: https://arxiv.org/pdf/math/0102135
-    type: article
+    type: paper
     relationship: adapts
     note: >-
       Arithmetic projection input. The asymptotic coefficient comparison retains
@@ -39,7 +39,7 @@ sources:
   - title: Generalized arithmetic Kakeya
     authors: [C. Pohoata, D. Zakharov]
     id: arXiv:2411.13395
-    type: preprint
+    type: paper
     relationship: adapts
     note: Homogenization input.
 related_formalizations:

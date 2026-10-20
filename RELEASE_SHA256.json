@@ -1,4 +1,5 @@
 {
+  ".github/workflows/palomar-preflight.yml": "8357cb93c43db7e6adb608c2a4c917e1117a2c8982b494e79c3255df19e92e78",
   "ABSTRACT.md": "c935fdc8c3865f91c89392a7220b3c1e76b98ad0682a692e49bab35aa241a49d",
   "AUTHORS": "2e53175db08baa7133d2b11c10eb7cd2fba750afd61cf87fca1423e8f7e948d6",
   "COMPARISON.json": "9a085e09b4c718fc5f7fb945d67ba218038b6a981161ac44c3f5b183f72848f2",
@@ -858,7 +859,7 @@
   "Solution.lean": "c2ae141b7e7a7ce8d466153c5cc21114430bd76f7b673923c18a36c06636f747",
   "THIRD_PARTY_NOTICES.md": "06859ec8661430a86cd02997c27caa583eab57496813ebf2d18f3df6a5dd4440",
   "comparator.json": "15f3f2394de3b8cd31667428fe17e27619db338a3b410d4c9f6cd9b07d9e9eb1",
-  "formalization.yaml": "c74330f89598709ff67d54ec6cc35b9edd5612a172ff5491c1f2eab6bf75dd9e",
+  "formalization.yaml": "b2c225856f42eeda608e7ef9333a7a4b97d83eb01b6b6ec1d193bb5e3a3a81d5",
   "lake-manifest.json": "e20d554ec9b3d33a412fd5bf42a2a11a47a2fa266f444ccdc4dca1d3c96c038f",
   "lakefile.toml": "fc6b33bf4fd6eb3b5ba0ae784c77faac496c279b4cb15f98f22657a72ad211c9",
   "lean-toolchain": "8dc8d6f560141069d9073e370611716ef77ada0da8ffa37e2149f44b2e63ac7a",
