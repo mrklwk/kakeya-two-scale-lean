@@ -9,7 +9,9 @@ project:
     4.35.0-rc2 and mathlib 065356127b1dc0016f66b7283ce0ce2c4055aa55.
   authors: [Mark Lewko]
   responsible_maintainers: [Mark Lewko]
-  license: AGPL-3.0-only
+  # Licensee reports the unmodified license text under its legacy SPDX name.
+  # The grant is version 3 only (AGPL-3.0-only); see NOTICE.
+  license: AGPL-3.0
 repository:
   role: substantive-development
 classification:
