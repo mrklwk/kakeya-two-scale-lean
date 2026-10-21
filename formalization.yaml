@@ -2,7 +2,7 @@ version: v0.4
 project:
   name: Two-scale Kakeya upper Minkowski lower bound
   description: >-
-    We prove that every bounded Kakeya set in $\mathbb R^n$, $n\ge4$, has upper Minkowski dimension at least $0.597n$. Here a Kakeya set contains a unit line segment in every direction. This improves the asymptotic coefficient $c_{\mathrm{KT}}=1/\alpha=0.596968283237\ldots$ in the Katz--Tao bound $1+c_{\mathrm{KT}}(n-1)$, where $\alpha$ is the unique root of $\alpha^3-4\alpha+2=0$ in $(1,2)$. The proof combines arithmetic estimates for line segments with geometric estimates for tubes at two different widths.
+    We prove that every bounded Kakeya set in Rⁿ, n ≥ 4, has upper Minkowski dimension at least 0.597n. Here a Kakeya set contains a unit line segment in every direction. This improves the asymptotic coefficient c_KT = 1/α = 0.596968283237… in the Katz–Tao bound 1 + c_KT(n−1), where α is the unique root of α³−4α+2 = 0 in (1,2). The proof combines arithmetic estimates for line segments with geometric estimates for tubes at two different widths.
   authors: [Mark Lewko]
   responsible_maintainers: [Mark Lewko]
   # Licensee reports the unmodified license text under its legacy SPDX name.
