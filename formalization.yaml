@@ -2,11 +2,7 @@ version: v0.4
 project:
   name: Two-scale Kakeya upper Minkowski lower bound
   description: >-
-    Every bounded Kakeya set in real Euclidean n-space, n at least 4, has ordinary
-    upper Minkowski dimension at least 597n/1000. The formalized conclusion uses
-    finite open-ball covers and a limsup through all positive radii tending to zero.
-    No additional analytic estimate is assumed. The project is pinned to Lean
-    4.35.0-rc2 and mathlib 065356127b1dc0016f66b7283ce0ce2c4055aa55.
+    We prove that every bounded Kakeya set in $\mathbb R^n$, $n\ge4$, has upper Minkowski dimension at least $0.597n$. Here a Kakeya set contains a unit line segment in every direction. This improves the asymptotic coefficient $c_{\mathrm{KT}}=1/\alpha=0.596968283237\ldots$ in the Katz--Tao bound $1+c_{\mathrm{KT}}(n-1)$, where $\alpha$ is the unique root of $\alpha^3-4\alpha+2=0$ in $(1,2)$. The proof combines arithmetic estimates for line segments with geometric estimates for tubes at two different widths.
   authors: [Mark Lewko]
   responsible_maintainers: [Mark Lewko]
   # Licensee reports the unmodified license text under its legacy SPDX name.
